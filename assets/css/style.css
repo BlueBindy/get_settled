@@ -38,7 +38,7 @@ footer{
 
 @media all and (min-width: 800px) {
     
-} and (min-width:800px) {
+
 .main {
     flex: 3;
 }
@@ -60,5 +60,5 @@ footer{
 
 @media all and (min-width:600px) {
    .aside {
-        order: 1;}
+        flex: 1;}
     }
