@@ -29,6 +29,12 @@ footer{
     font-size: 24px;
 }
 
+.main2 {
+    text-align: left;
+    background: fuchsia;
+    height: 300px;
+    font-size: 24px;
+}
 .aside1 {
     background: gold;
 }
@@ -40,20 +46,23 @@ footer{
     
 
 .main {
-    flex: 3;
+    flex: 2;
 }
  .aside1 {
     order: 1;
  }
 
  .aside2 {
-    order: 2;
+    order: 3;
  }
 
  .main {
-    order: 2;
+    order: 1;
  }
 
+ .main2 {
+    order: 2;
+ }
  footer {
     order: 4;}
 }
