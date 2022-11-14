@@ -1,8 +1,64 @@
-h1 {
-    color:rgb(255, 161, 127);
-    font-style: italic;
+.wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
 }
 
-p{
-    background-color: blue;
+
+.wrapper > * {
+    padding: 10px;
+    margin: 10px;
+    flex: 1 100%;
+    border-radius: 10px;
 }
+
+header {
+    background: tomato;
+    height: 120px;
+}
+
+footer{
+    background: lightgreen;
+    height: 80px;
+}
+
+.main {
+    text-align: left;
+    background: deepskyblue;
+    height: 300px;
+    font-size: 24px;
+}
+
+.aside1 {
+    background: gold;
+}
+.aside2 {
+    background: hotpink;
+}
+
+@media all and (min-width: 800px) {
+    
+} and (min-width:800px) {
+.main {
+    flex: 3;
+}
+ .aside1 {
+    order: 1;
+ }
+
+ .aside2 {
+    order: 2;
+ }
+
+ .main {
+    order: 2;
+ }
+
+ footer {
+    order: 4;}
+}
+
+@media all and (min-width:600px) {
+   .aside {
+        order: 1;}
+    }
