@@ -17,7 +17,7 @@ black: #000000 and rgb(0, 0, 0)*/
 }
 
 
-.wrapper > * {
+.wrapper>* {
     padding: 10px;
     margin: 10px;
     flex: 1 100%;
@@ -25,83 +25,90 @@ black: #000000 and rgb(0, 0, 0)*/
 }
 
 header {
-    background: rgb(94, 170, 168);
+    background: rgb(219, 100, 0);
     height: 120px;
 }
 
-footer{
+footer {
     background: rgb(94, 170, 168);
     height: 80px;
 }
 
 .main {
     text-align: left;
-    background: deepskyblue;
+    background: rgb(163, 210, 202);
     height: 300px;
     font-size: 24px;
 }
 
 .main2 {
     text-align: left;
-    background: fuchsia;
+    background: rgb(163, 210, 202);
     height: 300px;
     font-size: 24px;
 }
+
 .aside1 {
-    background: gold;
+    background: rgb(94, 170, 168);
 }
+
 .aside2 {
-    background: hotpink;
+    background: rgb(94, 170, 168);
 }
 
 @media all and (min-width: 800px) {
-    
 
-.main {
-    flex: 2;
-}
- .aside1 {
-    order: 1;
- }
 
- .aside2 {
-    order: 1;
- }
+    .main {
+        flex: 2;
+    }
 
- .main {
-    order: 1;
- }
+    .aside1 {
+        order: 1;
+    }
 
- .main2 {
-    order: 1;
- }
- footer {
-    order: 4;}
+    .aside2 {
+        order: 1;
+    }
+
+    .main {
+        order: 1;
+    }
+
+    .main2 {
+        order: 1;
+    }
+
+    footer {
+        order: 4;
+    }
 }
 
 @media all and (min-width:600px) {
-   .aside {
-        flex: 1;}
+    .aside {
+        flex: 1;
     }
+}
 
-    /* styling for nav bar to check for responsivity*/
-    #menu li {
-        float: right;
-        margin-right: 30px;
-        list-style-type: none;
-        color: rgb(0, 0, 0);
-    }
+/* styling for nav bar to check for responsivity*/
+#menu li {
+    float: right;
+    margin-right: 30px;
+    list-style-type: none;
+    color: rgb(0, 0, 0);
+}
 
-    #logo {
+#logo {
     float: left;
     color: rgb(0, 0, 0);
 }
+
 /* styling for footer links to check for responsivity*/
 .social-networks {
     text-align: right;
 }
 
-.social-networks > li {
+.social-networks>li {
     display: inline;
 }
 
@@ -114,11 +121,13 @@ body {
     color: rgb(0, 0, 0);
 }
 
-a { color:rgb(0, 0, 0);
-    text-decoration:none;
-    }
-    
-    a:hover {
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a:hover {
     color: rgb(60, 64, 72);
-    text-decoration : none;
-    }
+    text-decoration: none;
+}
+
