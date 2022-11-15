@@ -73,7 +73,7 @@ footer{
         flex: 1;}
     }
 
-    /* styling for nav bar*/
+    /* styling for nav bar to check for responsivity*/
     #menu li {
         float: right;
         margin-right: 30px;
@@ -82,4 +82,12 @@ footer{
 
     #logo {
     float: left;
+}
+/* styling for footer links to check for responsivity*/
+.social-networks {
+    text-align: right;
+}
+
+.social-networks > li {
+    display: inline;
 }
