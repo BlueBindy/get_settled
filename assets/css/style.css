@@ -1,3 +1,14 @@
+/* color palette: https://colorhunt.co/palette/f8f1f1a3d2ca5eaaa8db6400
+Bone: #F8F1F1 and rgb(248, 241, 241)
+Ice blue: #A3D2CA and rgb(163, 210, 202)
+Teal: #5EAAA8 and rgb(94, 170, 168)
+Orange: #DB6400 and rgb(219, 100, 0)
+Charcoal: #3C4048 and rgb(60, 64, 72) 
+black: #000000 and rgb(0, 0, 0)*/
+
+/* Google Fonts link for Oswald an Source Sans Pro */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Source+Sans+Pro:wght@300&display=swap');
+
 /* css for responsiveness using flexbox*/
 .wrapper {
     display: flex;
@@ -14,12 +25,12 @@
 }
 
 header {
-    background: tomato;
+    background: rgb(94, 170, 168);
     height: 120px;
 }
 
 footer{
-    background: lightgreen;
+    background: rgb(94, 170, 168);
     height: 80px;
 }
 
@@ -78,10 +89,12 @@ footer{
         float: right;
         margin-right: 30px;
         list-style-type: none;
+        color: rgb(0, 0, 0);
     }
 
     #logo {
     float: left;
+    color: rgb(0, 0, 0);
 }
 /* styling for footer links to check for responsivity*/
 .social-networks {
@@ -91,3 +104,21 @@ footer{
 .social-networks > li {
     display: inline;
 }
+
+/*styling for accessibility
+font is a placeholder, get this checked*/
+
+body {
+    font-family: Oswald, sans-serif;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+}
+
+a { color:rgb(0, 0, 0);
+    text-decoration:none;
+    }
+    
+    a:hover {
+    color: rgb(60, 64, 72);
+    text-decoration : none;
+    }
