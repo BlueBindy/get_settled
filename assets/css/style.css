@@ -1,3 +1,4 @@
+/* css for responsiveness using flexbox*/
 .wrapper {
     display: flex;
     flex-flow: row wrap;
@@ -53,7 +54,7 @@ footer{
  }
 
  .aside2 {
-    order: 3;
+    order: 1;
  }
 
  .main {
@@ -61,7 +62,7 @@ footer{
  }
 
  .main2 {
-    order: 2;
+    order: 1;
  }
  footer {
     order: 4;}
@@ -71,3 +72,14 @@ footer{
    .aside {
         flex: 1;}
     }
+
+    /* styling for nav bar*/
+    #menu li {
+        float: right;
+        margin-right: 30px;
+        list-style-type: none;
+    }
+
+    #logo {
+    float: left;
+}
