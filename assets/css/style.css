@@ -44,7 +44,7 @@ footer {
     padding: 10px;
     margin: 10px;
     border-radius: 10px;
-    position:absolute;
+    margin-top: auto;
     bottom: 0;
     left: 0;
     width:100%    
@@ -130,13 +130,17 @@ footer {
 }
 
 /*styling for accessibility
-font is a placeholder, get this checked*/
+font is a placeholder, get this checked
+min-height: 100vh; display:flex, flex:direction: column inserted for footer flex treatment to 
+stick to bottom. How does this interact with position: absolute?*/
 
 body {
     font-family: Oswald, sans-serif;
     font-weight: 300;
     color: rgb(0, 0, 0);
-    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 a {
