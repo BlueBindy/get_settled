@@ -34,7 +34,9 @@ header {
     padding: 10px;
     margin: 10px;
     border-radius: 10px;
+    
 }
+
 
 footer {
     background: rgb(94, 170, 168);
@@ -42,8 +44,12 @@ footer {
     padding: 10px;
     margin: 10px;
     border-radius: 10px;
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    width:100%    
+        }
 
-}
 
 .main {
     text-align: left;
@@ -130,6 +136,7 @@ body {
     font-family: Oswald, sans-serif;
     font-weight: 300;
     color: rgb(0, 0, 0);
+    position: relative;
 }
 
 a {
@@ -151,4 +158,6 @@ a:hover {
     padding: 10px;
     margin: 10px;
 }
+
+
 
