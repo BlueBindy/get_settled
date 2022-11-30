@@ -166,4 +166,26 @@ a:hover {
 } 30 Nov 1*/
 
 
-
+  label {
+    display: flex;
+    display: inline-block;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: 1.5em;
+    margin-bottom: 1em;
+    text-align: left;
+    width: 7em;
+    line-height: 1.5em;
+    
+  }
+  
+  input {
+    display: inline-block;
+    line-height: 1.5em;
+    height: 1.5em;
+    flex: 0 0 2em;
+    margin-left: 1em;
+  }
+ .email-form {
+    padding: 1em;
+ }
