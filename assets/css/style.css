@@ -53,14 +53,14 @@ footer {
 
 .main {
     text-align: left;
-    background: rgb(163, 210, 202);
+    background: transparent;
     height: 300px;
     font-size: 24px;
 }
 
 .main2 {
     text-align: left;
-    background: rgb(163, 210, 202);
+    background: transparent;
     height: 300px;
     font-size: 24px;
 }
