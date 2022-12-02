@@ -9,9 +9,9 @@ black: #000000 and rgb(0, 0, 0)*/
 /* Google Fonts link for Oswald and Source Sans Pro */
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Source+Sans+Pro:wght@300&display=swap');
 
-/* * {
+ * {
     outline: 1px solid #f00 !important;
-} */
+} 
 
 /* css for responsiveness using flexbox*/
 .wrapper {
@@ -71,10 +71,21 @@ footer {
     font-size: 24px;
 }
 
-.aside1 {
+/*.aside1 {
     background: rgb(94, 170, 168);
-     background: url('../images.css/khara-woods-irish.jpg') no-repeat left center;
-    background-size: contain; 
+     background: url('../images.css/khara-woods-irish.jpg') no-repeat bottom right;
+   background-size: contain;
+    
+}*/
+
+.aside1 {
+    background-image: url('../images.css/khara-woods-irish.jpg');
+    background-image: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+
 }
 
 .aside2 {
