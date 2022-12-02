@@ -71,6 +71,10 @@ footer {
     font-size: 24px;
 }
 
+article {
+    overflow: auto;
+}
+
 /*.aside1 {
     background: rgb(94, 170, 168);
      background: url('../images.css/khara-woods-irish.jpg') no-repeat bottom right;
@@ -82,10 +86,7 @@ footer {
     background-image: url('../images.css/khara-woods-irish.jpg');
     background-image: center center;
     background-repeat: no-repeat;
-    background-size: cover;
-    
-    
-
+    background-size: cover; 
 }
 
 .aside2 {
@@ -176,6 +177,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    
 }
 
 a {
