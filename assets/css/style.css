@@ -43,7 +43,7 @@ header {
 
 footer {
     background: rgb(94, 170, 168);
-    height: 4em;
+    height: 2.5em;
     padding: 10px;
     margin: 10px;
     border-radius: 10px;
@@ -54,7 +54,8 @@ footer {
     /* width:100%   30 Nov 1 */ 
         }
  .copyright {
-    display: inline-block;
+    display: inline;
+    
  }
 
 .main {
@@ -203,6 +204,7 @@ body {
 /*social-networks is ul*/
 .social-networks {
     text-align: right;
+    display: inline;
 }
 
 .social-networks>li {
