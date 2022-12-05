@@ -12,14 +12,13 @@ black: #000000 and rgb(0, 0, 0)*/
 /* * {
     outline: 1px solid #f00 !important;
 }*/
- 
+
 /* css for responsiveness using flexbox*/
 .wrapper {
     display: flex;
     flex-flow: row wrap;
     text-align: center;
 }
-
 
 .wrapper>* {
     padding: 10px;
@@ -30,16 +29,13 @@ black: #000000 and rgb(0, 0, 0)*/
 
 header {
     background-color: rgb(219, 100, 0);
-   
     height: 4em;
     max-width: 100%;
     opacity: 0.85;
     padding: 10px;
     margin: 10px;
     border-radius: 10px;
-    
 }
-
 
 footer {
     background: rgb(94, 170, 168);
@@ -51,11 +47,11 @@ footer {
     bottom: 0;
     left: 0;
     position: relative;
-        }
- .copyright {
+}
+
+.copyright {
     display: inline;
-    
- }
+}
 
 .main {
     text-align: left;
@@ -84,58 +80,56 @@ a:link {
 a.nav-link:link {
     color: black;
 }
-  
-  
- a:visited {
-  color: teal;
-  }
-  
-  a.nav-link:visited {
-    color: black;
-  }
 
-  a:focus {
+a:visited {
+    color: teal;
+}
+
+a.nav-link:visited {
+    color: black;
+}
+
+a:focus {
     border-bottom: 1px solid;
     background: #93c47d;
-  }
-  
-  a:hover {
+}
+
+a:hover {
     border-bottom: 1px solid;
     background: #7e9a6a;
-  }
-  
-  a:active {
+}
+
+a:active {
     background: #38761d;
     color: #93c47d;
-  }
+}
 
-  a.nav-link:active {
+a.nav-link:active {
     background: #38761d;
     color: #93c47d;
-  }
+}
 
-  article > img {
+article>img {
     width: 100%;
     height: 97%;
     object-fit: cover;
     border-radius: 1%;
-    
-  }
-  
-  .image-attrib {
+}
+
+.image-attrib {
     position: relative;
     display: inline-block;
     left: 18em;
     bottom: 2em;
     color: white;
-    background-color: rgba(0,0,0,.2);
-  }
+    background-color: rgba(0, 0, 0, .2);
+}
 
 .aside1 {
     background-image: url('../images.css/khara-woods-irish.jpg');
     background-image: center center;
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: cover;
 }
 
 .aside2 {
@@ -143,8 +137,6 @@ a.nav-link:link {
 }
 
 @media all and (min-width: 800px) {
-
-
     .main {
         flex: 2;
     }
@@ -177,7 +169,7 @@ a.nav-link:link {
 }
 
 body {
-    max-width:1080px;
+    max-width: 1080px;
     margin: 0 auto;
 }
 
@@ -191,16 +183,13 @@ body {
     color: rgb(0, 0, 0);
 }
 
-
-
 #logo {
     float: left;
     color: rgb(0, 0, 0);
     margin-top: 0.5em;
 }
 
-/* styling for footer links to check for responsivity*/
-/*social-networks is ul*/
+/* styling for footer links to check for responsivity.*/
 .social-networks {
     text-align: right;
     display: inline;
@@ -208,13 +197,13 @@ body {
 
 .social-networks>li {
     display: inline-block;
-   padding-right: 0.3em;
+    padding-right: 0.3em;
 }
-/* social_links is div*/
+
 .social_links {
     position: absolute;
     right: 1em;
-    bottom: 1em;    
+    bottom: 1em;
 }
 
 /*styling for accessibility
@@ -229,16 +218,9 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    
 }
 
-
-
-
-
-
-
-  label {
+label {
     display: flex;
     display: inline-block;
     flex-direction: row;
@@ -248,16 +230,16 @@ body {
     text-align: left;
     width: 7em;
     line-height: 1.5em;
-    
-  }
-  
-  input {
+}
+
+input {
     display: inline-block;
     line-height: 1.5em;
     height: 1.5em;
     flex: 0 0 2em;
     margin-left: 1em;
-  }
- .email-form {
+}
+
+.email-form {
     padding: 1em;
- }
+}
