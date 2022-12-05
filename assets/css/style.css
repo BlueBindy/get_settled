@@ -120,9 +120,26 @@ a.nav-link:link {
     height: 97%;
     object-fit: cover;
     border-radius: 1%;
-   
 
+  }
 
+  /*.flag-image {
+    position: relative;
+    display: inline-block;
+  }*/
+  
+  .image-attrib {
+    position: relative;
+    display: inline-block;
+    /*bottom: 0;
+    right: 0;
+    margin: 0 .5em .5em 0;
+    padding: .25em;*/
+    left: 18em;
+    bottom: 2em;
+    color: white;
+    background-color: rgba(0,0,0,.2)
+    
   }
 
 /*.aside1 {
