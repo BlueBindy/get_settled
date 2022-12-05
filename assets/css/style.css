@@ -187,6 +187,11 @@ input {
     margin-left: 1em;
 }
 
+#submit {
+    font-size: large;
+    
+}
+
 .email-form {
     padding: 1em;
 }
