@@ -11,7 +11,7 @@ black: #000000 and rgb(0, 0, 0)*/
 
 /* * {
     outline: 1px solid #f00 !important;
-} */
+}*/
  
 /* css for responsiveness using flexbox*/
 .wrapper {
@@ -51,7 +51,6 @@ footer {
     bottom: 0;
     left: 0;
     position: relative;
-    /* width:100%   30 Nov 1 */ 
         }
  .copyright {
     display: inline;
@@ -120,34 +119,17 @@ a.nav-link:link {
     height: 97%;
     object-fit: cover;
     border-radius: 1%;
-
+    
   }
-
-  /*.flag-image {
-    position: relative;
-    display: inline-block;
-  }*/
   
   .image-attrib {
     position: relative;
     display: inline-block;
-    /*bottom: 0;
-    right: 0;
-    margin: 0 .5em .5em 0;
-    padding: .25em;*/
     left: 18em;
     bottom: 2em;
     color: white;
-    background-color: rgba(0,0,0,.2)
-    
+    background-color: rgba(0,0,0,.2);
   }
-
-/*.aside1 {
-    background: rgb(94, 170, 168);
-     background: url('../images.css/khara-woods-irish.jpg') no-repeat bottom right;
-   background-size: contain;
-    
-}*/
 
 .aside1 {
     background-image: url('../images.css/khara-woods-irish.jpg');
@@ -253,15 +235,7 @@ body {
 
 
 
-/* #hero-image {
-    height: 160px;
-    width: 100%;
-    background: rgb(219, 100, 0);
-    opacity: 0.9;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 10px;
-} 30 Nov 1*/
+
 
 
   label {
