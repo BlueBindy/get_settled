@@ -13,18 +13,13 @@ black: #000000 and rgb(0, 0, 0)*/
     outline: 1px solid #f00 !important;
 }*/
 
-/* css for responsiveness using flexbox*/
-.wrapper {
+body {
+    font-family: Oswald, sans-serif;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+    min-height: 100vh;
     display: flex;
-    flex-flow: row wrap;
-    text-align: center;
-}
-
-.wrapper>* {
-    padding: 10px;
-    margin: 10px;
-    flex: 1 100%;
-    border-radius: 10px;
+    flex-direction: column;
 }
 
 header {
@@ -136,6 +131,74 @@ article>img {
     background: rgb(94, 170, 168);
 }
 
+#menu li {
+    float: right;
+    margin-right: 30px;
+    margin-top: 0.5em;
+    list-style-type: none;
+    color: rgb(0, 0, 0);
+}
+
+#logo {
+    float: left;
+    color: rgb(0, 0, 0);
+    margin-top: 0.5em;
+}
+
+.social-networks {
+    text-align: right;
+    display: inline;
+}
+
+.social-networks>li {
+    display: inline-block;
+    padding-right: 0.3em;
+}
+
+.social_links {
+    position: absolute;
+    right: 1em;
+    bottom: 1em;
+}
+
+label {
+    display: flex;
+    display: inline-block;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: 1.5em;
+    margin-bottom: 1em;
+    text-align: left;
+    width: 7em;
+    line-height: 1.5em;
+}
+
+input {
+    display: inline-block;
+    line-height: 1.5em;
+    height: 1.5em;
+    flex: 0 0 2em;
+    margin-left: 1em;
+}
+
+.email-form {
+    padding: 1em;
+}
+
+/* css for responsiveness using flexbox*/
+.wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.wrapper>* {
+    padding: 10px;
+    margin: 10px;
+    flex: 1 100%;
+    border-radius: 10px;
+}
+
 @media all and (min-width: 800px) {
     .main {
         flex: 2;
@@ -167,79 +230,8 @@ article>img {
         flex: 1;
     }
 }
-
+/* Prevents website spreading horizontally across large screens*/
 body {
     max-width: 1080px;
     margin: 0 auto;
-}
-
-
-/* styling for nav bar to check for responsivity*/
-#menu li {
-    float: right;
-    margin-right: 30px;
-    margin-top: 0.5em;
-    list-style-type: none;
-    color: rgb(0, 0, 0);
-}
-
-#logo {
-    float: left;
-    color: rgb(0, 0, 0);
-    margin-top: 0.5em;
-}
-
-/* styling for footer links to check for responsivity.*/
-.social-networks {
-    text-align: right;
-    display: inline;
-}
-
-.social-networks>li {
-    display: inline-block;
-    padding-right: 0.3em;
-}
-
-.social_links {
-    position: absolute;
-    right: 1em;
-    bottom: 1em;
-}
-
-/*styling for accessibility
-font is a placeholder, get this checked
-min-height: 100vh; display:flex, flex:direction: column inserted for footer flex treatment to 
-stick to bottom. How does this interact with position: absolute?*/
-
-body {
-    font-family: Oswald, sans-serif;
-    font-weight: 300;
-    color: rgb(0, 0, 0);
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
-label {
-    display: flex;
-    display: inline-block;
-    flex-direction: row;
-    justify-content: flex-end;
-    margin-left: 1.5em;
-    margin-bottom: 1em;
-    text-align: left;
-    width: 7em;
-    line-height: 1.5em;
-}
-
-input {
-    display: inline-block;
-    line-height: 1.5em;
-    height: 1.5em;
-    flex: 0 0 2em;
-    margin-left: 1em;
-}
-
-.email-form {
-    padding: 1em;
 }
