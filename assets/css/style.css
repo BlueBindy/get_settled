@@ -33,7 +33,7 @@ header {
 }
 
 footer {
-    background: rgb(94, 170, 168);
+    background: #7EBD92;
     height: 2.5em;
     padding: 10px;
     margin: 10px;
@@ -133,7 +133,7 @@ article>img {
 }
 
 .aside2 {
-    background: rgb(94, 170, 168);
+   background: #7EBD92;
 }
 
 #menu li {
