@@ -114,10 +114,11 @@ article>img {
 .image-attrib {
     position: relative;
     display: inline-block;
-    left: 18em;
-    bottom: 2em;
+    left: 30em;
+    bottom: 3em;
     color: white;
     background-color: rgba(0, 0, 0, .2);
+    font-size: 12px;
 }
 
 .aside1 {
@@ -126,7 +127,11 @@ article>img {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+/*
+.text-background {
+    background-color: #7EBD92;
+}
+*/
 .aside2 {
     background: rgb(94, 170, 168);
 }
@@ -143,6 +148,7 @@ article>img {
     float: left;
     color: rgb(0, 0, 0);
     margin-top: 0.5em;
+    letter-spacing: 1.5px;
 }
 
 .social-networks {
@@ -232,6 +238,6 @@ input {
 }
 /* Prevents website spreading horizontally across large screens*/
 body {
-    max-width: 1080px;
+    max-width: 1800px;
     margin: 0 auto;
 }
