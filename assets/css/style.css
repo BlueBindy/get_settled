@@ -196,13 +196,14 @@ input {
     padding: 1em;
 }
 
-/* css for responsiveness using flexbox*/
+/* CSS for responsiveness based on CSS Coder's 'Responsive Flexbox Layout Page in 4 minutes' 
+available on YouTube*/
 .wrapper {
     display: flex;
     flex-flow: row wrap;
     text-align: center;
 }
-/* this border radius changed all elements - check if others necessary */
+
 .wrapper>* {
     padding: 10px;
     margin: 10px;
