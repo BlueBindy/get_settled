@@ -106,12 +106,12 @@ The test standard is that content adjusts to a variety of screen widths with all
 ---
 
 ### 5. Accessibility
-Automated testing: **???**
+Automated testing: **Lighthouse**
 **Is any other testing required for this project?**
 
 ### 6. Manual Testing
-W3C HTML:
-W3C CSS:
+W3C HTML: https://validator.w3.org/
+W3C CSS:https://jigsaw.w3.org/css-validator
 Image rendering: All media renders correctly on deployed site. 
 
 ---
@@ -126,7 +126,7 @@ The background image on the first aside on each page (khara-woods-irish.jpg) was
 
 HTML and CSS approaches typically taken from <a href="codeinstitute.net">Code Institute's Diploma in Full Stack Development (E-commerce Applications)</a> HTML and CSS modules. Additional suggestions, on CSS particularly, taken from <a href="https://www.w3schools.com/html/default.asp">w3schools</a>.
 
-README structure based on <a href="https://github.com/Code-Institute-Solutions/StudentExampleProjectGradeFive/blob/master/README.md">Haley Schafer's work</a>. The approach to the Deployment and Testing sections reflect guidance from <a href="https://dev.to/brianmk">Brian Macharia.</a>  
+README structure based on <a href="https://github.com/Code-Institute-Solutions/readme-template">Code Institute's example</a>. The approach to the Deployment and Testing sections reflects guidance from <a href="https://dev.to/brianmk">Brian Macharia.</a>  
 
 The live demo for the README was created based on <a href="https://lirad.medium.com/two-ways-to-create-a-live-demo-for-your-github-project-5436b048a40e">Diego Lira's suggestion.</a>
 
