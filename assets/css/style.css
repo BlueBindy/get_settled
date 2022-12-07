@@ -117,7 +117,7 @@ article>img {
     left: 30em;
     bottom: 3em;
     color: white;
-    background-color: rgba(0, 0, 0, .2);
+    background-color: rgba(0, 0, 0, .8);
     font-size: 12px;
 }
 
@@ -158,13 +158,14 @@ article>img {
 
 .social-networks>li {
     display: inline-block;
-    padding-right: 0.3em;
+    padding-right: 0.8em;
+    
 }
 
 .social_links {
     position: absolute;
     right: 1em;
-    bottom: 1em;
+    bottom: 1em; 
 }
 
 label {
