@@ -114,13 +114,19 @@ W3C HTML: https://validator.w3.org/
 W3C CSS:https://jigsaw.w3.org/css-validator
 Image rendering: All media renders correctly on deployed site. 
 
+Initial W3 html testing recommended additional H2/3/4 headings and fewer H1 headings. Some stray and unclosed tags were also highlighted. After recommendations were implemented, W3 html testing indicated no further issues. 
+
+Initial W3 CSS testing indicated some duplicate tags and an error in an function name. Once removed no further issues were reported. 
+
+Lighthouse testing revealed acceptable scores for accessibality (97+), however performance issues were noted, with scores in the 80s. Images were compressed and converted to WebP to improve performance, however this reduced performance scores to the 40s. 
+
 ---
 
 ## Copyright and acknowledgements
 
 Responsiveness structure was developed based on the Responsive Flexbox Layout by CSS Coder at <a href=" https://www.youtube.com/watch?v=S0a7PEOi0do">Responsive Flexbox Layout Page in 4 minutes</a> . The meta data was inserted using Emmet shortcut. The default template for Gitpod is from <a href="https://github.com/Code-Institute-Org/gitpod-full-template">the Code Institute's 'my_full_template'</a>. 
 
-<a href="https://www.fontpair.co/all">Fontpair</a> was used for font selection. <a href=" https://colorhunt.co/">Colorhunt</a> was used for palette selection. Icons are sourced from <a href="https://fontawesome.com/">FontAwesome</a>.
+<a href="https://www.fontpair.co/all">Fontpair</a> was used for font selection. <a href=" https://colorhunt.co/">Colorhunt</a> was used for palette selection. Icons are sourced from <a href="https://fontawesome.com/">FontAwesome</a>. <a href="https://tinypng.com/">TinyPNG</a> was used to compress images. <a href="https://convertio.co/">Convertio.co</a> was used to convert JPEG images to WEBP.
 
 The background image on the first aside on each page (khara-woods-irish.jpg) was taken by <a href="https://unsplash.com/@kharaoke?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Khara Woods</a> on <a href="https://unsplash.com/photos/_EaLWd6q4QM">Unsplash</a> and is free to use under the Unsplash licence. The crowd image on FAQ (rawpixel-irish-flag.jpeg) is from <a href="https://www.rawpixel.com/image/654282">Raw Pixel</a> and has a royalty free commercial licence, with required attribution: 'Image by rawpixel.com' 
 
