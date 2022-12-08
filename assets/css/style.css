@@ -34,8 +34,7 @@ footer {
     border-radius: 5px;
     margin-top: auto;
     bottom: 0;
-    left: 0;
-    
+    left: 0;  
 }
  
 article {
@@ -80,9 +79,7 @@ a.nav-link:active {
     background: #38761d;
     color: #93c47d;
 }
-
 /* CSS for background images, images and aside color */
-
 article>img {
     width: 100%;
     height: 97%;
@@ -116,8 +113,6 @@ article>img {
    background: #7EBD92;
    text-align: center;
 }
-
-
 /* CSS for header formatting, informed by Code Institute tutorials */
 .menu li {
     float: right;
@@ -133,7 +128,6 @@ article>img {
     margin-top: 0.5em;
     letter-spacing: 1.5px;
 }
-
 /*CSS for footer social links */
 .social-networks {
     text-align: right;
@@ -144,13 +138,13 @@ article>img {
     display: inline-block;
     padding-right: 0.8em;   
 }
+
 .social-links {
     position: absolute;
     right: 1em;
     bottom: 1em; 
 }
 /* CSS for email form  */ 
-
 label {
     display: flex;
     display: inline-block;
@@ -178,7 +172,6 @@ input {
 .email-form {
     padding: 1em;
 }
-
 /* CSS for responsiveness.
 CSS for responsiveness based on CSS Coder's 'Responsive Flexbox Layout Page in 4 minutes' 
 available on YouTube*/
