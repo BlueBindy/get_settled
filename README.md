@@ -118,9 +118,9 @@ Image rendering: All media renders correctly on deployed site.
 
 Initial W3 html testing recommended additional H2/3/4 headings and fewer H1 headings. Some stray and unclosed tags were also highlighted. After recommendations were implemented, W3 html testing indicated no further issues. 
 
-Initial W3 CSS testing indicated some duplicate tags and an error in an function name. Once removed no further issues were reported. 
+Initial W3 CSS testing indicated some duplicate tags and an error in a function name. Once removed no further issues were reported. 
 
-Lighthouse testing revealed acceptable scores for accessibality (97+), however performance issues were noted, with scores in the 80s. Images were compressed and converted to WebP to improve performance, however this reduced performance scores to the 40s.
+Lighthouse testing revealed acceptable scores for accessibality (97+), however performance issues were noted, with scores in the 80s. Images were compressed and converted to WebP to improve performance, improving Lighthouse performance to 90+. Semantically relevant images have alt attributes and link text is descriptive.
 
 Class names are all lower case and without spaces, with the exception of externally provided classes. For instance, icons are sourced from Font Awesome and the classes provided within the links include spaces. File names are hyphenated where needed to avoid spaces in syntax.  
 
