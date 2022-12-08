@@ -41,7 +41,8 @@ footer {
 article {
     overflow: auto;
 }
-/* User feedback options for links based on W3 Schools Tutorial */
+/* CSS for links.
+User feedback options for links based on W3 Schools Tutorial */
 a:link {
     color: #163100;
     text-decoration: none;
@@ -80,7 +81,7 @@ a.nav-link:active {
     color: #93c47d;
 }
 
-/* CSS for background images and images */
+/* CSS for background images, images and aside color */
 
 article>img {
     width: 100%;
@@ -178,12 +179,12 @@ input {
     padding: 1em;
 }
 
-/* CSS for responsiveness based on CSS Coder's 'Responsive Flexbox Layout Page in 4 minutes' 
+/* CSS for responsiveness.
+CSS for responsiveness based on CSS Coder's 'Responsive Flexbox Layout Page in 4 minutes' 
 available on YouTube*/
 .wrapper {
     display: flex;
     flex-flow: row wrap;
-    /*text-align: center; */
 }
 
 .wrapper>* {
