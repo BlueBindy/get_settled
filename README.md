@@ -122,7 +122,7 @@ Initial W3 CSS testing indicated some duplicate tags and an error in an function
 
 Lighthouse testing revealed acceptable scores for accessibality (97+), however performance issues were noted, with scores in the 80s. Images were compressed and converted to WebP to improve performance, however this reduced performance scores to the 40s.
 
-File names are all lower case and without spaces, with the exception of externally provided classes. For instance, icons are sourced from Font Awesome and the classes provided within the links include spaces. 
+File names are all lower case and without spaces, with the exception of externally provided classes. For instance, icons are sourced from Font Awesome and the classes provided within the links include spaces. File names are hyphenated where needed to avoid spaces in syntax.  
 
 ---
 
