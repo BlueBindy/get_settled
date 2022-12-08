@@ -85,13 +85,15 @@ The original repository is available at: <a href="https://github.com/BlueBindy/g
 ---
  
 | Social media links function | Click icon | Hover hand and highlight appears, click opens correct page (new tab) | PASS |
+
+Correct page for links is home page of social media platform as there are no social media accounts created for this project. 
  
  ---
 | Embedded page links function | Click icon | Hover hand and highlight appears, click opens correct page (new tab) | PASS |
  
  ---
 
- | Email form functions | Enter details, click submit | Prompt text disappears, Submit returns validation error if no data entered | PASS but NB Error 501 on submission as no database connected for data collection |
+ | Email form functions | Enter details, click submit | Prompt text disappears, Submit returns validation error if no data entered | PASS but NB Error 501 on submission as no database available or connected for data collection |
 
  ---
 
