@@ -15,7 +15,7 @@ body {
     flex-direction: column;
 }
 
-header {
+.header {
     background-color: rgb(219, 100, 0);
     height: 4em;
     max-width: 100%;
@@ -242,7 +242,7 @@ available on YouTube*/
 
 /* CSS to stack menu nav links on very small mobiles */
 @media all and (max-width:420px) {
-    header {
+    .header {
     display: flex;
     flex-direction: column;
     height: 130px;
