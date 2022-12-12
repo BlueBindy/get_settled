@@ -20,18 +20,19 @@ body {
     height: 4em;
     max-width: 100%;
     opacity: 0.8;
-    padding: 10px;
-    margin: 10px;
+    padding: 0.625rem;
+    margin: 0.625rem;
 }
+
 /* Footer designed to sit below bottom of lowest aside/article, irrespective of how many articles used on page. 
 To stick to bottom of screen, use: margin-top:auto */
 footer {
     background: #7EBD92;
-   position: relative;
+    position: relative;
     height: 2.5em;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 5px;
+    padding: 0.625rem;
+    margin: 0.625rem;
+    border-radius: 0.3125rem;
     bottom: 0;
     left: 0;
 }
@@ -60,12 +61,12 @@ a:visited {
 a.nav-link:visited {
     color: black;
 }
-
+/* border-bottom for a:focus uses px for accessibility */
 a:focus {
     border-bottom: 1px solid;
     background: #93c47d;
 }
-
+/* border-bottom for a:hover uses px for accessibility */
 a:hover {
     border-bottom: 1px solid;
     background: #7e9a6a;
@@ -92,19 +93,19 @@ article>img {
 .image-attrib {
     position: relative;
     display: inline;
-    left: 1em;
-    bottom: 3em;
+    left: 1rem;
+    bottom: 3rem;
     color: white;
     background-color: rgba(0, 0, 0, .8);
-    font-size: 12px;
+    font-size: 0.75rem;
 }
 
 /* CSS to lay H3 onto image */
 .header-embed {
     position: relative;
-    left:3em;
-    top: 4em;
-    font-size: x-large;
+    left: 3rem;
+    top: 5rem;
+    font-size: 1.5rem;
 }
 
 .goodbye-img {
@@ -129,19 +130,20 @@ article>img {
     text-align: center;
 }
 
-/* CSS for header formatting, informed by Code Institute tutorials */
+/* CSS for header formatting, informed by Code Institute tutorials. 
+margin-right for .menu li uses px for accessibility */
 .menu li {
     float: right;
     margin-right: 30px;
-    margin-top: 0.5em;
+    margin-top: 0.5rem;
     list-style-type: none;
     color: rgb(0, 0, 0);
 }
-
+/* letter-spacing for #logo uses px for brand consistency */
 #logo {
     float: left;
     color: rgb(0, 0, 0);
-    margin-top: 0.5em;
+    margin-top: 0.5rem;
     letter-spacing: 1.5px;
 }
 
@@ -150,16 +152,16 @@ article>img {
     text-align: right;
     display: inline;
 }
-
+/* padding-right for .social-networks>li uses px for accessibility */
 .social-networks>li {
     display: inline-block;
-    padding-right: 0.8em;
+    padding-right: 13px;
 }
 
 .social-links {
     position: absolute;
-    right: 1em;
-    bottom: 1em;
+    right: 1rem;
+    bottom: 1rem;
 }
 
 /* CSS for email form  */
@@ -168,29 +170,29 @@ label {
     display: inline-block;
     flex-direction: row;
     justify-content: flex-end;
-    margin-left: 1.5em;
-    margin-bottom: 1em;
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
     text-align: left;
-    width: 7em;
-    line-height: 1.5em;
+    width: 7rem;
+    line-height: 1.5rem;
 }
-
+/* margin-bottom for input uses px to maintain accessibility on small screens */
 input {
     display: inline-block;
-    line-height: 1.5em;
-    height: 1.5em;
-    flex: 0 0 2em;
-    margin-left: 1em;
+    line-height: 1.5rem;
+    height: 1.5rem;
+    flex: 0 0 2rem;
+    margin-left: 1rem;
     margin-bottom: 20px;
 }
-
+/* margin-top for #submit uses px to maintain accessibility on small screens */
 #submit {
     font-size: large;
     margin-top: 20px;
 }
 
 .email-form {
-    padding: 1em;
+    padding: 1rem;
 }
 
 /* CSS for responsiveness.
@@ -202,10 +204,10 @@ available on YouTube*/
 }
 
 .wrapper>* {
-    padding: 10px;
-    margin: 10px;
+    padding: 0.625rem;
+    margin: 0.625rem;
     flex: 1 100%;
-    border-radius: 5px;
+    border-radius: 0.3125rem;
 }
 
 @media all and (min-width: 800px) {
@@ -240,14 +242,15 @@ available on YouTube*/
     }
 }
 
-/* CSS to stack menu nav links on very small mobiles */
+/* CSS to stack menu nav links on very small mobiles. Height for .header uses px for accessibility. */
 @media all and (max-width:420px) {
     .header {
-    display: flex;
-    flex-direction: column;
-    height: 130px;
+        display: flex;
+        flex-direction: column;
+        height: 130px;
+    }
 }
-}
+
 /* CSS to prevent website stretching horizontally across large screens, suggested by Brian Macharia */
 body {
     max-width: 1800px;
