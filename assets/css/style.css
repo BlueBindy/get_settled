@@ -23,15 +23,15 @@ body {
     padding: 10px;
     margin: 10px;
 }
-
+/* Footer designed to sit below bottom of lowest aside/article, irrespective of how many articles used on page. 
+To stick to bottom of screen, use: margin-top:auto */
 footer {
     background: #7EBD92;
-    position: relative;
+   position: relative;
     height: 2.5em;
     padding: 10px;
     margin: 10px;
     border-radius: 5px;
-    margin-top: auto;
     bottom: 0;
     left: 0;
 }
