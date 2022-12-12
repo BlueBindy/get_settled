@@ -181,10 +181,12 @@ input {
     height: 1.5em;
     flex: 0 0 2em;
     margin-left: 1em;
+    margin-bottom: 20px;
 }
 
 #submit {
     font-size: large;
+    margin-top: 20px;
 }
 
 .email-form {
