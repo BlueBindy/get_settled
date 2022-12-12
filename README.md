@@ -93,7 +93,7 @@ Correct page for links is home page of social media platform as there are no soc
  
  ---
 
- | Email form functions | Enter details, click submit | Prompt text disappears, Submit returns validation error if no data entered | PASS but NB Error 501 on submission as no database available or connected for data collection |
+ | Email form functions | Enter details, click submit | Prompt text disappears, Submit returns validation error if no data entered | PASS |
 
  ---
 
