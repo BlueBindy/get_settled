@@ -38,6 +38,7 @@ footer {
 
 article {
     overflow: auto;
+    font-size: large;
 }
 
 /* CSS for links.
