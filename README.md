@@ -1,5 +1,5 @@
 TODO  <br>
-1. insert wireframes into UX->Skeleton  <br>
+1. insert wireframes into UX->Skeleton (done)  <br>
 2. insert screenshot into Demo (just FAQ post H3 now) <br>
 3. insert live demo link into Demo (is git hack ok or use pages?)  <br>
 4. insert user stories into file directory  <br>
@@ -63,7 +63,21 @@ Structure  <br>
 The three page structure is designed to break common questions into manageable sections for users while encouraging time spent on the site. The landing page is designed to presents an email mailing list sign-up form above the fold to maximise sign-ups. The strict replication of page structure was intended to reduce user effort and increase the sense of familiarity to foster a brand of cutting-through-confusion. 
 
 Skeleton  <br>
-    insert Wireframes here
+  The wireframe for the home page, desktop version:
+
+  ![Screenshot of wireframe for home page]( /assets/images.css/wireframe-home-desk.png?raw=true "Home Page")
+
+  The wireframe for the How To page, desktop version:
+![Screenshot of wireframe for home page]( /assets/images.css/wireframe-howto-desk.png?raw=true "Home Page")
+
+  The wireframe for the FAQ page, desktop version:
+![Screenshot of wireframe for home page]( /assets/images.css/wireframe-faq-desk.png?raw=true "Home Page")
+
+  The wireframe for the How To page, mobile version:
+![Screenshot of wireframe for home page]( /assets/images.css/wireframe-faq-mobile.png?raw=true "Home Page")
+
+
+
 
 Surface  <br>
 The high-contrast and naive colour scheme was chosen to flag the peer-driven nature of the resource, and contrast to a higly-stylised corporate effort. The orange and green theme was selected specifically to reference the Irish flag and provide a visual reference to the purpose of the site. 
