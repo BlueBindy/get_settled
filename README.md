@@ -22,7 +22,17 @@ Get Settled is a submission for Portfolio 1, Code Institute's Diploma in Full St
 
 A live demo is available here (use this link for how to set up live demo: )https://lirad.medium.com/two-ways-to-create-a-live-demo-for-your-github-project-5436b048a40e)
 
-Insert screenshot of website here (capture screenshot from developer tools)
+The Home page:
+
+![Screenshot of get settled home page]( /assets/images.css/get_settled-home-page.png?raw=true "Home Page")
+
+The How To page:
+
+![Screenshot of get_settled How To page ]( /assets/images.css/get_settled-how-to.png?raw=true "How To Page")
+
+
+
+
 
 ---
 ### Technologies
@@ -70,7 +80,7 @@ As more content is added, a website search function will be added for UX purpose
 
 Github pages were used for deployment. The landing page ('Home') is index.html, as is required by Github Pages for successful deployment. 
 
-The original repository is available at: <a href="https://github.com/BlueBindy/get_settled.git">get_settled</a> and is created by <a href="https://github.com/BlueBindy">Fiona Thompson under username BlueBindy</a>. The repository can be cloned to run locally by inserting `git clone https://github.com/BlueBindy/get_settled.git` into a terminal. To create a repository that is not forked from the original, use `git remote rm origin` in the terminal CI. The site deployed from the original repository will automatically reflect new commits made to the master branch.
+The original repository is available at: <a href="https://github.com/BlueBindy/get_settled">get_settled</a> and is created by <a href="https://github.com/BlueBindy">Fiona Thompson under username BlueBindy</a>. The repository can be cloned to run locally by inserting `git clone https://github.com/BlueBindy/get_settled.git` into a terminal. To create a repository that is not forked from the original, use `git remote rm origin` in the terminal CI. The site deployed from the original repository will automatically reflect new commits made to the master branch.
 
 **The deployment write-up should include full instructions on how to get the application from code to hosting. I’d suggest explaining (1) how you set up Github Pages, (2) how one commits and pushes code from the local filesystem to Github and how Github Pages automatically picks that up, and (3) how one might clone and run it locally.**
 

@@ -5,9 +5,11 @@
 * {
     outline: 1px solid #f00 !important;
 } */
-/* CSS for basic website format */
+/* CSS for basic website format. font-display:swap used to ensure Oswald is loaded in Safari
+browser */
 body {
     font-family: Oswald, sans-serif;
+    font-display: swap;
     font-weight: 300;
     color: rgb(0, 0, 0);
     min-height: 100vh;
