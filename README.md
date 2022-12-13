@@ -1,10 +1,7 @@
 TODO  <br>
-1. insert wireframes into UX->Skeleton (done)  <br>
-2. insert screenshot into Demo (just FAQ post H3 now) <br>
-3. insert live demo link into Demo (is git hack ok or use pages?)  <br>
-4. insert user stories into file directory  <br>
-5. perform testing and insert results to Testing  <br>
-6. format testing secion  <br>
+
+2. insert FAQ post H3 screenshot into Demo <br>
+3. is git hack ok or use pages for live demo  <br>
 7. insert how i set up github pages  <br>
 8. Improve format of README: spacing, heading discipline
 
@@ -48,10 +45,8 @@ insert when h3 tag fixed.
 
 User Stories <br>
 As a Brit wanting to naturalise as Irish, I want easy to find answers to common questions
-insert screenshot here
 
 As an affiliate marketer, I want a content-based site broken into common questions so I can insert affiliate links in a value-driven way for the user. 
-insert screenshot here. 
 
 Strategy  <br>
 The strategic aim is to create a site that users find easy to scan for common questions and provides the client with natural opportunity to insert affiliate links in a later version. The tone is intended to be peer-created and accessible to encourage sharing but alsocredible to foster trustworthiness. 
@@ -73,10 +68,8 @@ Skeleton  <br>
   The wireframe for the FAQ page, desktop version:
 ![Screenshot of wireframe for home page]( /assets/images.css/wireframe-faq-desk.png?raw=true "Home Page")
 
-  The wireframe for the How To page, mobile version:
+  The wireframe for the How To page, mobile version:  <br>
 ![Screenshot of wireframe for home page]( /assets/images.css/wireframe-faq-mobile.png?raw=true "Home Page")
-
-
 
 
 Surface  <br>
@@ -95,9 +88,13 @@ As more content is added, a website search function will be added for UX purpose
 
 ### Deployment
 
-Github pages were used for deployment. The landing page ('Home') is index.html, as is required by Github Pages for successful deployment. 
+Github pages were used for deployment. The landing page ('Home') is index.html, as is required by Github Pages for successful deployment. If using Gitpod, code can be commited from the local filesystem to Github using 'git commit -m "" ' on the terminal. Code can be pushed form the local filesystem to Github by using 'git push' on the terminal. 
 
 The original repository is available at: <a href="https://github.com/BlueBindy/get_settled">get_settled</a> and is created by <a href="https://github.com/BlueBindy">Fiona Thompson under username BlueBindy</a>. The repository can be cloned to run locally by inserting `git clone https://github.com/BlueBindy/get_settled.git` into a terminal. To create a repository that is not forked from the original, use `git remote rm origin` in the terminal CI. The site deployed from the original repository will automatically reflect new commits made to the master branch.
+
+Github Pages were created by nominating index.html from the main branch of the repository as the entry file for the publishing source. Then settings/Code and Automation/
+
+To set up GIthub Pages, from the repository, select main as a publishing source
 
 **The deployment write-up should include full instructions on how to get the application from code to hosting. I’d suggest explaining (1) how you set up Github Pages, (2) how one commits and pushes code from the local filesystem to Github and how Github Pages automatically picks that up, and (3) how one might clone and run it locally.**
 
@@ -105,52 +102,89 @@ The original repository is available at: <a href="https://github.com/BlueBindy/g
 ## Testing
 
  ### 1. Functionality Testing 
-### | Test Label | Test Action | Expected Outcome | Test Outcome | 
 ---
-| Menu nav links function | Click link | Hover hand and highlight appears, click opens correct page | PASS |
+All tests peformed on 'bluebindy.github.io/get_settled/' on Chrome, Safari and Firefox browsers on a 13-inch early 2015 Macbook Air using MacOS Monterary v12.5.1. The exception to this is the Lighthouse accesssibility test which was performed on Chrome only.  <br>
 
 ---
- 
-| Social media links function | Click icon | Hover hand and highlight appears, click opens correct page (new tab) | PASS |
 
-Correct page for links is home page of social media platform as there are no social media accounts created for this project. 
- 
- ---
-| Embedded page links function | Click icon | Hover hand and highlight appears, click opens correct page (new tab) | PASS |
- 
- ---
-
- | Email form functions | Enter details, click submit | Prompt text disappears, Submit returns validation error if no data entered | PASS |
+ Test label: Social media links   <br>
+ Test action: Click social media icons in footer   <br>
+ Expected outcome: Hover hand and highlight appears, click opens correct page in new tab. Expected page for links is home page of social media platform as there are no social media accounts created for this project.   <br>
+ Test outcome: PASS  <br>
 
  ---
 
+ Test label: Embedded text links   <br>
+ Test action: Click link   <br>
+ Expected outcome: Hover hand and green higlight and underline appears on mouse over; click opens correct page in new tab. On return to website, text is momentarily highligted green and then changes to a different green highlight. Highlight disappears when different part of website is clicked.   <br>
+ Test outcome: PASS   <br>
+
+---
+
+Test label: Email form  <br>
+Test action: Enter first name, last name and email address into appropriate fields and click 'Send'.
+Expected outcome: When appropriate text is entered, the Code Insitute's formdump page opens in a new tab, confirming details entered. On return to website, entered data is cleared when website is refreshed. When incorrect data is entered (specifically, something other than a functioning email is entered in the Email field, or nothing is entered in First Name or Last Name) a user error warning appears. 
+Test outcome: PASS  <br>
+
+---
+
+Test label: Navigation menu  <br>
+Test action: Click on navigation links at top of website  <br>
+Expected outcome: On mouse over, a hover hand, green highlight and underline appears. On click, the user is taken to the correct website page. Clicking on Get Settled logo produces hover hand but no highlight or underline and takes user to Home page. No highlight remains when user is on selected web page. Clicking navigation links should not open a new tab but keep user on the same tab.  <br>
+Test outcome: PASS  <br>
+
+---
+
+Test label: Images  <br>
+Test action: Images can be seen on website  <br>
+Expected outcome: On page load, all images (both decorative and semantic) appear and load with less than 1 second delay and are not stretched or distorted.  <br>
+Test outcome: PASS  <br>
+
+---
+
+Test label: Fonts  <br>
+Test action: Fonts are visible  <br>
+Expected outcome: On page load, Oswald loads and is readable.  <br>
+Test outcome: PASS after modifications. Initially Oswald did not load on Safari browser, but the default sans serif was produced instead. CSS code 'font-display: swap' was added to the body element to trigger loading of Oswald.  <br>
+
+---
+
+Test label: Responsivity  <br>
+Test action: Website responds to varying screen sizes by producing a layout that is readable and intuitive to users.  <br>
+Expected action: When the website is viewed on desktops (2560 px and 3072 px) and mobiles (320 px, 490 px and 428 px), the layout automatically re-assembles in an intuitive and readable layout. Navigation menu, social media links, email form and embedded text links are accessible.  <br>
+Test outcome: PASS  <br>
+
+---
 ### 2. Browser Compatability
- The test standard is that the website renders correctly (all elements appear as expected) on Chrome, Firefox, Safari and all elements render within a maximum of **X** seconds. The test was performed using Developer Tools in the appropriate browsers. The results were successful on all browsers and maximum load time of **x seconds**. PASS
-
- ---
-
-
-### 3. Responsivity 
-The test standard is that content adjusts to a variety of screen widths with all content readable and with a UX format familiar to users. The content rendered appropriately on screen sizes : iPhone5 (320px wide), **??** and 5K iMac Pro (5120 x 2880 px) using Developer Tools on Chrome, Firefox and Safari. PASS
+Test label: Browser compatibility  <br>
+Test action: Request website (using 'bluebindy.github.io/get_settled/') on Chrome, Firefox and Safari browsers.  <br>
+Expected action: Website appears (including all images) as expected, with all elements, within 2 seconds. <br>
+Test outcome: PASS  <br>
 
 ---
 
 ### 5. Accessibility
-Automated testing: **Lighthouse**
-**Is any other testing required for this project?**
+Test label: Accessibility testing  <br>
+Test action: Perform a Lighthouse test using Chrome Developer Tools.   <br>
+Expected action: Best Practices, SEO and Accessibility should return 95+ and Performance should return 90+.  <br>
+Test outcome: PASS after initial feedback was incorporated. Feedback included compressing images and converting to WebP for Performance. Feedback also included providing additional padding for social media icons for Accessibility. Producing stable Lighthouse results required all background browsers to be closed and icognito browser mode to be used.   <br>
 
-### 6. Manual Testing
-W3C HTML: https://validator.w3.org/
-W3C CSS:https://jigsaw.w3.org/css-validator
-Image rendering: All media renders correctly on deployed site. 
+---
 
-Initial W3 html testing recommended additional H2/3/4 headings and fewer H1 headings. Some stray and unclosed tags were also highlighted. After recommendations were implemented, W3 html testing indicated no further issues. 
+### 6. Validator Testing
+Test label: W3 HTML validation  <br>
+Test action: Perform a W3 HTML validation test   <br>
+Expected action: W3 HTML validation passed with no issues outstanding  <br>
+Test outcome: PASS after initial feedback was incorporated. Initial W3 html testing recommended additional H2/3/4 headings and fewer H1 headings. Some stray and unclosed tags were also highlighted. After recommendations were implemented, W3 html testing indicated no further issues.  <br>
+ 
+---
 
-Initial W3 CSS testing indicated some duplicate tags and an error in a function name. Once removed no further issues were reported. 
+Test label: W3 CSS validation (Jigsaw)  <br>
+Test action: Perform a W3 CSS validation test  <br>
+Expected action: W3 CSS validation passed with no issues outstanding  <br>
+Test outcome: PASS after initial feedback was incorporated. Initial W3 CSS testing indicated some duplicate tags and an error in a function name. Once removed no further issues were reported. 
 
-Lighthouse testing revealed acceptable scores for accessibality (97+), however performance issues were noted, with scores in the 80s. Images were compressed and converted to WebP to improve performance, improving Lighthouse performance to 90+. Semantically relevant images have alt attributes and link text is descriptive.
-
-Class names are all lower case and without spaces. File names are hyphenated where needed to avoid spaces in syntax.  
+---
 
 ---
 
