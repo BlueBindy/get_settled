@@ -106,7 +106,7 @@ article>img {
 
 /* CSS to lay H3 onto image */
 .header-embed {
-    position: relative;    
+    position: relative;  
     left: 9rem;
     top: -32rem; 
     font-size: 2rem;

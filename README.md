@@ -1,7 +1,7 @@
 TODO  <br>
 1. insert wireframes into UX->Skeleton  <br>
-2. insert screenshot into Demo  <br>
-3. insert live demo link into Demo  <br>
+2. insert screenshot into Demo (just FAQ post H3 now) <br>
+3. insert live demo link into Demo (is git hack ok or use pages?)  <br>
 4. insert user stories into file directory  <br>
 5. perform testing and insert results to Testing  <br>
 6. format testing secion  <br>
@@ -20,7 +20,9 @@ Get Settled is a submission for Portfolio 1, Code Institute's Diploma in Full St
 
 ### Demo
 
-A live demo is available here (use this link for how to set up live demo: )https://lirad.medium.com/two-ways-to-create-a-live-demo-for-your-github-project-5436b048a40e)
+A live demo can be 
+<a href="https://raw.githack.com/bluebindy/get_settled/main/index.html">accessed here.</a>
+
 
 The Home page:
 
@@ -30,7 +32,8 @@ The How To page:
 
 ![Screenshot of get_settled How To page ]( /assets/images.css/get_settled-how-to.png?raw=true "How To Page")
 
-
+The FAQ page:
+insert when h3 tag fixed. 
 
 
 
@@ -141,7 +144,7 @@ Class names are all lower case and without spaces. File names are hyphenated whe
 
 Responsiveness structure was developed based on the Responsive Flexbox Layout by CSS Coder at <a href=" https://www.youtube.com/watch?v=S0a7PEOi0do">Responsive Flexbox Layout Page in 4 minutes</a> . The meta data was inserted using Emmet shortcut. The default template for Gitpod is from <a href="https://github.com/Code-Institute-Org/gitpod-full-template">the Code Institute's 'my_full_template'</a>. 
 
-<a href="https://www.fontpair.co/all">Fontpair</a> was used for font selection. <a href=" https://colorhunt.co/">Colorhunt</a> was used for palette selection. <a href = "https://imagecolorpicker.com/en">ImageColorPicker</a> was used to identify colors in images.  Icons are sourced from <a href="https://fontawesome.com/">FontAwesome</a>. <a href="https://tinypng.com/">TinyPNG</a> was used to compress images. <a href="https://convertio.co/">Convertio.co</a> was used to convert JPEG images to WEBP.
+<a href="https://www.fontpair.co/all">Fontpair</a> was used for font selection. <a href=" https://colorhunt.co/">Colorhunt</a> was used for palette selection. <a href = "https://imagecolorpicker.com/en">ImageColorPicker</a> was used to identify colors in images.  Icons are sourced from <a href="https://fontawesome.com/">FontAwesome</a>. <a href="https://tinypng.com/">TinyPNG</a> was used to compress images. <a href="https://convertio.co/">Convertio.co</a> was used to convert JPEG images to WEBP. <a href="http://raw.githack.com/">GitHack</a> was used to provide a live demonstration of the website.
 
 The background image on the first aside on each page (khara-woods-irish.jpg) was taken by <a href="https://unsplash.com/@kharaoke?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Khara Woods</a> on <a href="https://unsplash.com/photos/_EaLWd6q4QM">Unsplash</a> and is free to use under the Unsplash licence. The crowd image on FAQ (rawpixel-irish-flag.jpeg) is from <a href="https://www.rawpixel.com/image/654282">Raw Pixel</a> and has a royalty free commercial licence, with required attribution: 'Image by rawpixel.com' 
 
