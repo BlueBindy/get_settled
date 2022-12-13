@@ -94,7 +94,9 @@ The original repository is available at: <a href="https://github.com/BlueBindy/g
 
 Github Pages were created by nominating index.html from the main branch of the repository as the entry file for the publishing source. Then settings/Code and Automation/
 
-To set up GIthub Pages, from the repository, select main as a publishing source
+To set up GIthub Pages, from the repository, select main as a publishing source.
+
+FINISH deployment here...
 
 **The deployment write-up should include full instructions on how to get the application from code to hosting. I’d suggest explaining (1) how you set up Github Pages, (2) how one commits and pushes code from the local filesystem to Github and how Github Pages automatically picks that up, and (3) how one might clone and run it locally.**
 
