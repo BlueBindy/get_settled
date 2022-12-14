@@ -1,5 +1,6 @@
 /* Google Fonts link for Oswald and Source Sans Pro */
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Source+Sans+Pro:wght@300&display=swap');
+
 /* CSS for basic website format. font-display:swap used to ensure Oswald is loaded in Safari
 browser */
 body {
@@ -11,6 +12,7 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 .header {
     background-color: rgb(219, 100, 0);
     height: 4em;
@@ -19,6 +21,7 @@ body {
     padding: 0.625rem;
     margin: 0.625rem;
 }
+
 /* Footer designed to sit below bottom of lowest aside/article, irrespective of how many articles used on page. 
 To stick to bottom of screen, use: margin-top:auto */
 footer {
@@ -31,13 +34,18 @@ footer {
     bottom: 0;
     left: 0;
 }
+
 .page-not-found {
     text-align: center;
 }
+
+/* Overflow: auto provides a scroll bar if text extends beyond an element but the default
+is for elements containing text to expand as needed. */
 article {
     overflow: auto;
     font-size: large;
 }
+
 /* CSS for links.
 User feedback options for links based on W3 Schools Tutorial */
 a:link {
@@ -45,41 +53,50 @@ a:link {
     text-decoration: none;
     font-weight: bold;
 }
+
 a.nav-link:link {
     color: black;
 }
+
 a.nav-link:visited {
     color: black;
 }
+
 /* border-bottom for a:focus uses px for accessibility */
 a:focus {
     border-bottom: 1px solid;
     background: #93c47d;
 }
+
 /* border-bottom for a:hover uses px for accessibility. Order rule: Hover must come after :link and :visited */
 a:hover {
     border-bottom: 1px solid;
     background: #7e9a6a;
 }
+
 /* Order rule: Active must come after hover.*/
-a:active, a.nav-link:active {
+a:active,
+a.nav-link:active {
     background: #38761d;
     color: #93c47d;
 }
+
 /* CSS for background images, images and aside color */
 article>img {
     width: 100%;
     height: 83%;
     object-fit: cover;
     border-radius: 0.3125rem;
-    position:relative;
+    position: relative;
     top: 3rem;
 }
+
 .goodbye-img {
     background-color: #dc863d;
     overflow: hidden;
-    position:relative
+    position: relative
 }
+
 /* CSS to stick image attribution to bottom of image during responsivity. 
 Position fixed from top as container reduces size from bottom when responsive to 
 smaller screens. Percentage rather than cardinal placement because more stable during responsivity.
@@ -92,20 +109,23 @@ Recommended by Brian Macharia, any implementation errors responsibility of Fiona
     background-color: rgba(0, 0, 0, .8);
     font-size: 0.75rem;
 }
+
 /* CSS to lay H3 onto image and keep in acceptable placement during responsivity.
 Position fixed from top as container reduces size from bottom when responsive to 
 smaller screens. Percentage rather than cardinal placement because more stable during 
 responsivity. Recommended by Brian Macharia, any implementation errors responsibility of Fiona Thompson */
 .header-embed {
-    position: absolute;  
+    position: absolute;
     left: 20%;
-    top: 19%; 
+    top: 19%;
     font-size: 1.5rem;
-} 
+}
+
 /* CSS for text over background image */
 .text-background {
     background-color: #7EBD92;
 }
+
 /* CSS for aside with background image */
 .aside1 {
     background-image: url('../images.css/khara-woods-irish2.webp');
@@ -114,11 +134,13 @@ responsivity. Recommended by Brian Macharia, any implementation errors responsib
     background-size: cover;
     text-align: center;
 }
+
 /* CSS for aside without background image */
 .aside2 {
     background: #7EBD92;
     text-align: center;
 }
+
 /* CSS for header formatting, informed by Code Institute tutorials. 
 margin-right for .menu li uses px for accessibility */
 .menu li {
@@ -128,6 +150,7 @@ margin-right for .menu li uses px for accessibility */
     list-style-type: none;
     color: rgb(0, 0, 0);
 }
+
 /* letter-spacing for #logo uses px for brand consistency */
 #logo {
     float: left;
@@ -135,21 +158,25 @@ margin-right for .menu li uses px for accessibility */
     margin-top: 0.5rem;
     letter-spacing: 1.5px;
 }
+
 /*CSS for footer social links */
 .social-networks {
     text-align: right;
     display: inline;
 }
+
 /* padding-right for .social-networks>li uses px for accessibility */
 .social-networks>li {
     display: inline-block;
     padding-right: 13px;
 }
+
 .social-links {
     position: absolute;
     right: 1rem;
     bottom: 1rem;
 }
+
 /* CSS for email form  */
 label {
     display: flex;
@@ -162,23 +189,27 @@ label {
     width: 7rem;
     line-height: 1.5rem;
 }
+
 /* margin-bottom for input uses px to maintain accessibility on small screens */
 input {
-    display: inline-block;
+   /* display: inline-block; */
     line-height: 1.5rem;
     height: 1.5rem;
     flex: 0 0 2rem;
     margin-left: 1rem;
     margin-bottom: 20px;
 }
+
 /* margin-top for #submit uses px to maintain accessibility on small screens */
 #submit {
     font-size: large;
     margin-top: 20px;
 }
+
 .email-form {
     padding: 1rem;
 }
+
 /* CSS for responsiveness.
 CSS for responsiveness based on CSS Coder's 'Responsive Flexbox Layout Page in 4 minutes' 
 available on YouTube*/
@@ -186,37 +217,46 @@ available on YouTube*/
     display: flex;
     flex-flow: row wrap;
 }
+
 .wrapper>* {
     padding: 0.625rem;
     margin: 0.625rem;
     flex: 1 100%;
     border-radius: 0.3125rem;
 }
+
 @media all and (min-width: 800px) {
     .main {
         flex: 2;
     }
+
     .aside1 {
         order: 1;
     }
+
     .aside2 {
         order: 1;
     }
+
     .main {
         order: 1;
     }
+
     .main2 {
         order: 1;
     }
+
     footer {
         order: 4;
     }
 }
+
 @media all and (min-width:600px) {
     .aside {
         flex: 1;
     }
 }
+
 /* CSS to stack menu nav links on very small mobiles. Height for .header uses px for accessibility. */
 @media all and (max-width:420px) {
     .header {
@@ -225,20 +265,23 @@ available on YouTube*/
         height: 130px;
     }
 }
+
 /* CSS to make H3 overlay on image accessible on smaller screens */
 @media all and (max-width:420px) {
     .header-embed {
         background-color: rgb(255, 255, 224, 0.75);
     }
 }
+
 /* CSS to make nav menu more accessible on smaller screens */
 @media all and (max-width:420px) {
     .menu ul {
         display: flex;
-       justify-content: space-evenly;
-       flex-direction: row-reverse;
+        justify-content: space-evenly;
+        flex-direction: row-reverse;
     }
 }
+
 /* CSS to prevent website stretching horizontally across large screens, suggested by Brian Macharia */
 body {
     max-width: 1800px;
