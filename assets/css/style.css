@@ -192,7 +192,6 @@ label {
 
 /* margin-bottom for input uses px to maintain accessibility on small screens */
 input {
-   /* display: inline-block; */
     line-height: 1.5rem;
     height: 1.5rem;
     flex: 0 0 2rem;
