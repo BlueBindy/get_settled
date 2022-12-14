@@ -204,6 +204,8 @@ README structure based on <a href="https://github.com/Code-Institute-Solutions/r
 
 The live demo for the README was created based on <a href="https://lirad.medium.com/two-ways-to-create-a-live-demo-for-your-github-project-5436b048a40e">Diego Lira's suggestion.</a>
 
+All file names are in lower-case and utilise hyphens where necessary except for repository level files, which use underscore.
+
 All content is written by Fiona Thompson. 
 
 Mentoring from <a href="https://dev.to/brianmk">Brian Macharia</a>. All errors and ommissions the responsibility of Fiona Thompson. 
