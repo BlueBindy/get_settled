@@ -176,8 +176,8 @@ Test outcome: PASS after initial feedback was incorporated. Feedback included co
 ### 6. Validator Testing
 Test label: W3 HTML validation  <br>
 Test action: Perform a W3 HTML validation test   <br>
-Expected action: W3 HTML validation passed with no issues outstanding  <br>
-Test outcome: PASS after initial feedback was incorporated. Initial W3 html testing recommended additional H2/3/4 headings and fewer H1 headings. Some stray and unclosed tags were also highlighted. After recommendations were implemented, W3 html testing indicated no further issues.  <br>
+Expected action: W3 HTML validation passed with zero errors and ideally no warnings.  <br>
+Test outcome: PASS (0 errors, 0 warnings) after initial feedback was incorporated. Initial W3 html testing recommended additional H2/3/4 headings and fewer H1 headings. Some stray and unclosed tags were also highlighted. Feedback also suggested some sections were changed to divs unless headers were used. Headers for these sections (eg Line 18, index.html) were not semantically appropriate and so divs were used in all noted instances. After recommendations were implemented, W3 html testing indicated no errors or warnings.  <br>
  
 ---
 
