@@ -23,11 +23,11 @@ A live demo can be
 
 The Home page:
 
-![Screenshot of get settled home page]( /assets/images.css/get_settled-home-page.png?raw=true "Home Page")
+![Screenshot of get settled home page]( /assets/documentation-images/get_settled-home-page.png?raw=true "Home Page")
 
 The How To page:
 
-![Screenshot of get_settled How To page ]( /assets/images.css/get_settled-how-to.png?raw=true "How To Page")
+![Screenshot of get_settled How To page ]( /assets/documentation-images/get_settled-how-to.png?raw=true "How To Page")
 
 The FAQ page:
 insert when h3 tag fixed. 
@@ -60,16 +60,16 @@ The three page structure is designed to break common questions into manageable s
 Skeleton  <br>
   The wireframe for the home page, desktop version:
 
-  ![Screenshot of wireframe for home page]( /assets/images.css/wireframe-home-desk.png?raw=true "Home Page")
+  ![Screenshot of wireframe for home page]( /assets/documentation-images/wireframe-home-desk.png?raw=true "Home Page")
 
   The wireframe for the How To page, desktop version:
-![Screenshot of wireframe for home page]( /assets/images.css/wireframe-howto-desk.png?raw=true "Home Page")
+![Screenshot of wireframe for home page]( /assets/documentation-images/wireframe-howto-desk.png?raw=true "Home Page")
 
   The wireframe for the FAQ page, desktop version:
-![Screenshot of wireframe for home page]( /assets/images.css/wireframe-faq-desk.png?raw=true "Home Page")
+![Screenshot of wireframe for home page]( /assets/documentation-images/wireframe-faq-desk.png?raw=true "Home Page")
 
   The wireframe for the How To page, mobile version:  <br>
-![Screenshot of wireframe for home page]( /assets/images.css/wireframe-faq-mobile.png?raw=true "Home Page")
+![Screenshot of wireframe for home page]( /assets/documentation-images/wireframe-faq-mobile.png?raw=true "Home Page")
 
 
 Surface  <br>
