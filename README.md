@@ -1,7 +1,5 @@
 TODO  <br>
 
-2. insert FAQ post H3 screenshot into Demo <br>
-3. is git hack ok or use pages for live demo  <br>
 7. insert how i set up github pages  <br>
 8. Improve format of README: spacing, heading discipline
 
