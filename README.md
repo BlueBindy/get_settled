@@ -53,7 +53,7 @@ Scope  <br>
 This version is intended to offer minimum content only. The intention is that subsequent versions add content and also affiliate links. 
 
 Structure  <br>
-The three page structure is designed to break common questions into manageable sections for users while encouraging time spent on the site. The landing page is designed to presents an email mailing list sign-up form above the fold to maximise sign-ups. The strict replication of page structure was intended to reduce user effort and increase the sense of familiarity to foster a brand of cutting-through-confusion. 
+The three page structure is designed to break common questions into manageable sections for users while encouraging time spent on the site. The landing page is designed to present an email mailing list sign-up form above the fold to maximise sign-ups. The strict replication of page structure was intended to reduce user effort and increase the sense of familiarity to foster a brand of cutting-through-confusion. 
 
 Skeleton  <br>
   The wireframe for the home page, desktop version:
@@ -122,8 +122,8 @@ All tests peformed on 'bluebindy.github.io/get_settled/' on Chrome, Safari and F
 ---
 
 Test label: Email form  <br>
-Test action: Enter first name, last name and email address into appropriate fields and click 'Send' ('appropriate text'). Click send without entering first name, last name and email address ('missing data'). Click send after entering email address without '@' ('incorrect data'). Repeat on Chrome, Firefox and Safari.
-Expected outcome: When appropriate text is entered, the Code Insitute's formdump page opens in a new tab, confirming details entered. On return to website, entered data is cleared when website is refreshed. When missing or incorrect data is entered (specifically, something other than a functioning email is entered in the Email field, or nothing is entered in First Name or Last Name) a user error warning appears and data is not sent. 
+Test action: Enter first name, last name and email address into appropriate fields and click 'Send' ('appropriate text'). Click send without entering first name, last name and email address ('missing data'). Click send after entering email address without '@' ('incorrect data'). Repeat on Chrome, Firefox and Safari.  <br>
+Expected outcome: When appropriate text is entered, the Code Insitute's formdump page opens in a new tab, confirming details entered. On return to website, entered data is cleared when website is refreshed. When missing or incorrect data is entered (specifically, something other than a functioning email is entered in the Email field, or nothing is entered in First Name or Last Name) a user error warning appears and data is not sent.  <br>
 Test outcome: PASS  <br>
 
 ---
@@ -155,24 +155,24 @@ Expected outcome: When the website is viewed on a range of screen sizes, the lay
 Test outcome: PASS after code modification for H3 text overlay on FAQ image. Initially this text did not stay in an appropriate position; on very small screens it either migrated up or disappeared. Positioning was modified from cardinal to percentage units as suggested by Brian Macharia. This modification resulted in the text appearing as expected on a range of screens. <br>
 
 ---
-Test label: Code format compliance
-Test action: Review all HTML (particularly attributes) and CSS (particularly rules) code, and all file and directory names
-Expected outcome: No uppercase letters used; no spaces found. Multiple words are joined using hyphens, except for repository level names which should use an underscore where necessary. All names are distinctive and intrinsically meaningful. CSS code is filed in an file external to HTML pages and linked to the HTML page in the HEAD element.
-Test outcome: PASS after discrepancies were modified (particularly variations in use of hyphen and underscore in attribute names).
+Test label: Code format compliance  <br>
+Test action: Review all HTML (particularly attributes) and CSS (particularly rules) code, and all file and directory names.  <br>
+Expected outcome: No uppercase letters used; no spaces found. Multiple words in HTML and CSS declarative code are joined using hyphens, except for repository level names which should use an underscore where necessary. All names are distinctive and intrinsically meaningful. CSS code is filed in an file external to HTML pages and linked to the HTML page in the HEAD element.  <br>
+Test outcome: PASS after discrepancies were modified (particularly variations in use of hyphen and underscore in attribute names).  <br>
 
 ---
 
-Test label: Images and links include accessibility labels
-Test action: Review all images and links for accessibility label or clarify why not present
-Expected outcome: All semantically relevant images include self-explanatory accessibility label. All text links include self-explanatory label as part of text.
-Test outcome: PASS. Images used for decorative purposes only have no accessibility labels, but this is acceptable. 
+Test label: Images and links include accessibility labels.  <br>
+Test action: Review all images and links for accessibility label or clarify why not present.  <br>
+Expected outcome: All semantically relevant images include self-explanatory accessibility label.All text links include self-explanatory label as part of text.  <br>
+Test outcome: PASS. Images used for decorative purposes only have no accessibility labels, but this is acceptable.  <br>
 
 ---
 
-Test label: File organisation
-Test action: Review all files and directories
-Expected outcome: Index.html is registered as 'Home' page via listing as entry file for the site on GitHub Pages. All static files are within assets/images.css/ . All files for README.md are within assets/documentation-images/  . All css files are within directory assets/css/ All files are grouped by type. 
-Test outcome: PASS. 
+Test label: File organisation  <br>
+Test action: Review all files and directories  <br>
+Expected outcome: Index.html is registered as 'Home' page via listing as entry file for the site on GitHub Pages. All static files to be published on the website are within assets/images.css/ . All files for README.md are within documentation-images/  . All css files are within assets/css/ .All files are grouped by type.  <br>
+Test outcome: PASS.  <br>
 
 
 ### 2. Browser Compatability
@@ -202,7 +202,7 @@ Test outcome: PASS (0 errors, 0 warnings) after initial feedback was incorporate
 Test label: W3 CSS validation (Jigsaw)  <br>
 Test action: Perform a W3 CSS validation test  <br>
 Expected outcome: W3 CSS validation passed with no issues outstanding  <br>
-Test outcome: PASS after initial feedback was incorporated. Initial W3 CSS testing indicated some duplicate tags and an error in a function name. Once removed no further issues were reported. 
+Test outcome: PASS after initial feedback was incorporated. Initial W3 CSS testing indicated some duplicate tags and an error in a function name. Once removed no further issues were reported.  <br>
 
 ---
 
