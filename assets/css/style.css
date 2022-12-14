@@ -94,28 +94,33 @@ article>img {
     top: 3rem;
 }
 
+.goodbye-img {
+    background-color: #dc863d;
+    overflow: hidden;
+    position:relative
+}
+/* CSS to stick image attribution to bottom of image during responsivity. 
+Position fixed from top as container reduces size from bottom when responsive to 
+smaller screens. Percentage rather than cardinal placement because more stable during responsivity.*/
 .image-attrib {
-    position: relative;
-    display: inline;
-    left: 1rem;
-    bottom: 7rem;
+    position: absolute;
+    left: 5%;
+    top: 85%;
     color: white;
     background-color: rgba(0, 0, 0, .8);
     font-size: 0.75rem;
 }
-
-/* CSS to lay H3 onto image */
+/* CSS to lay H3 onto image and keep in acceptable placement during responsivity.
+Position fixed from top as container reduces size from bottom when responsive to 
+smaller screens. Percentage rather than cardinal placement because more stable during responsivity. */
 .header-embed {
-    position: relative;  
-    left: 9rem;
-    top: -32rem; 
-    font-size: 2rem;
+    position: absolute;  
+    left: 20%;
+    top: 19%; 
+    font-size: 1.5rem;
 } 
 
-.goodbye-img {
-    background-color: #dc863d;
-    overflow: hidden;
-}
+
 
 /* CSS for text over background image */
 .text-background {
@@ -254,7 +259,12 @@ available on YouTube*/
         height: 130px;
     }
 }
-
+/* CSS to make H3 overlay on image accessible on smaller screens */
+@media all and (max-width:420px) {
+    .header-embed {
+        background-color: rgb(255, 255, 224, 0.75);
+    }
+}
 /* CSS to prevent website stretching horizontally across large screens, suggested by Brian Macharia */
 body {
     max-width: 1800px;
