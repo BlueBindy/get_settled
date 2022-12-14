@@ -19,7 +19,7 @@ A live demo can be
 <a href="https://raw.githack.com/bluebindy/get_settled/main/index.html">accessed here.</a>
 
 
-A screenshot of the Home page:
+A screenshot of the Home page, including the email mailing list sign-up form and navigation bar:
 
 ![Screenshot of get settled home page]( /documentation-images/get_settled-home-page.png?raw=true "Home Page")
 
@@ -77,7 +77,7 @@ The high-contrast and naive colour scheme was chosen to flag the peer-driven nat
 ### Features
   <br>
 <strong>Features included in this current version</strong>  <br>
-The website includes a navigation bar and user entry email form. Content is accessed through a scrollbar where it extends beyond the initial text space. <br>
+The website includes a navigation bar in the header so the user can navigate between pages. An email form is provided on the home page, enabling the user to join a mailing list. <br>
   <br>
 <strong>Features planned for later versions</strong>  <br>
 As more content is added, a website search function will be added for UX purposes. When the client is ready to convert the site to an affiliate revenue website, affiliate links will be added.  
