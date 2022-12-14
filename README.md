@@ -110,57 +110,77 @@ All tests peformed on 'bluebindy.github.io/get_settled/' on Chrome, Safari and F
 ---
 
  Test label: Social media links   <br>
- Test action: Click social media icons in footer   <br>
- Expected outcome: Hover hand and highlight appears, click opens correct page in new tab. Expected page for links is home page of social media platform as there are no social media accounts created for this project.   <br>
+ Test action: Hover over link, click link, view opened page, return to website via browser tab, click elsewhere on website.Repeat on Chrome, Firefox and Safari.   <br>
+ Expected outcome: On mouse over, hover hand, green highlight and black bottom border appears. Click opens correct page in new tab. Expected page for social links is home page of relevant social media platform as there are no social media accounts created for this project. On return to website, icon remains briefly green highlighted, with black bottom border before changing to a paler green with bottom border. Highlight and bottom border disappear when screen refreshed or somewhere else on page clicked.   <br>
  Test outcome: PASS  <br>
 
  ---
 
  Test label: Embedded text links   <br>
- Test action: Click link   <br>
- Expected outcome: Hover hand and green higlight and underline appears on mouse over; click opens correct page in new tab. On return to website, text is momentarily highligted green and then changes to a different green highlight. Highlight disappears when different part of website is clicked.   <br>
+ Test action: Hover over link, click link, view opened page, return to website via browser tab, click elsewhere on website. Repeat on Chrome, Firefox and Safari.   <br>
+ Expected outcome: Hover hand, green higlight and black bottom border appears on mouse over; click opens correct page in new tab. On return to website, icon remains briefly green highlighted, with black bottom border before changing to a paler green with bottom border. Highlight and bottom border disappear when screen refreshed or somewhere else on page clicked.    <br>
  Test outcome: PASS   <br>
 
 ---
 
 Test label: Email form  <br>
-Test action: Enter first name, last name and email address into appropriate fields and click 'Send'.
-Expected outcome: When appropriate text is entered, the Code Insitute's formdump page opens in a new tab, confirming details entered. On return to website, entered data is cleared when website is refreshed. When incorrect data is entered (specifically, something other than a functioning email is entered in the Email field, or nothing is entered in First Name or Last Name) a user error warning appears. 
+Test action: Enter first name, last name and email address into appropriate fields and click 'Send' ('appropriate text'). Click send without entering first name, last name and email address ('missing data'). Click send after entering email address without '@' ('incorrect data'). Repeat on Chrome, Firefox and Safari.
+Expected outcome: When appropriate text is entered, the Code Insitute's formdump page opens in a new tab, confirming details entered. On return to website, entered data is cleared when website is refreshed. When missing or incorrect data is entered (specifically, something other than a functioning email is entered in the Email field, or nothing is entered in First Name or Last Name) a user error warning appears and data is not sent. 
 Test outcome: PASS  <br>
 
 ---
 
 Test label: Navigation menu  <br>
-Test action: Click on navigation links at top of website  <br>
-Expected outcome: On mouse over, a hover hand, green highlight and underline appears. On click, the user is taken to the correct website page. Clicking on Get Settled logo produces hover hand but no highlight or underline and takes user to Home page. No highlight remains when user is on selected web page. Clicking navigation links should not open a new tab but keep user on the same tab.  <br>
+Test action: Hover over menu link, click link, view selected website page page, return to a different website via menu link click. Repeat for Safari, Chrome and Firefox. <br>
+Expected outcome: On mouse over, a hover hand, green highlight and black bottom border appears. On click, the user is taken to the correct website page. Clicking on Get Settled logo produces hover hand but no highlight or underline and takes user to Home page. No highlight or bottom borner remains when user is on selected web page. Clicking navigation links should not open a new tab but keep user on the same tab.  <br>
 Test outcome: PASS  <br>
 
 ---
 
 Test label: Images  <br>
-Test action: Images can be seen on website  <br>
+Test action: Hard refresh broswer cache, navigate to web page with image, time image load time, inspect image. Manually minimise desktop screen size and inspect image. Repeat on Chrome, Firefox and Safari. Repeat using Chrome Developer Tools set for iPhone 5/SE (320 by 568), Surface Duo (540 by 720), iPad Mini (768 by 1024) and Pro Display XDR (6016 by 3384).   <br>
 Expected outcome: On page load, all images (both decorative and semantic) appear and load with less than 1 second delay and are not stretched or distorted.  <br>
-Test outcome: PASS  <br>
+Test outcome: PASS    <br>
 
 ---
 
 Test label: Fonts  <br>
-Test action: Fonts are visible  <br>
-Expected outcome: On page load, Oswald loads and is readable.  <br>
-Test outcome: PASS after modifications. Initially Oswald did not load on Safari browser, but the default sans serif was produced instead. CSS code 'font-display: swap' was added to the body element to trigger loading of Oswald.  <br>
+Test action: Inspect fonts after hard cache refresh on Chrome, Safari and Firefox browsers. Repeat while manually adjusting window size from minimum to maximum.  <br>
+Expected outcome: On page load, Oswald font loads and is legible.  <br>
+Test outcome: PASS after modifications. Initially Oswald did not load on Safari browser, but the default sans serif was produced instead. CSS code 'font-display: swap' was added to the body element to trigger loading of Oswald. Oswald successfully loaded on Safari after this code addition.  <br>
 
 ---
 
 Test label: Responsivity  <br>
-Test action: Website responds to varying screen sizes by producing a layout that is readable and intuitive to users.  <br>
-Expected action: When the website is viewed on desktops (2560 px and 3072 px) and mobiles (320 px, 490 px and 428 px), the layout automatically re-assembles in an intuitive and readable layout. Navigation menu, social media links, email form and embedded text links are accessible.  <br>
-Test outcome: PASS  <br>
+Test action: Manually minimise desktop screen size and inspect each web page. Repeat on Chrome, Firefox and Safari.  Repeat using Chrome Developer Tools set for iPhone 5/SE (320 by 568), Surface Duo (540 by 720), iPad Mini (768 by 1024) and Pro Display XDR (6016 by 3384).  <br>
+Expected outcome: When the website is viewed on a range of screen sizes, the layout automatically re-assembles in an intuitive, legible and expected layout. Navigation menu, social media links, email form and embedded text links are accessible.  <br>
+Test outcome: PASS after code modification for H3 text overlay on FAQ image. Initially this text did not stay in an appropriate position; on very small screens it either migrated up or disappeared. Positioning was modified from cardinal to percentage units as suggested by Brian Macharia. This modification resulted in the text appearing as expected on a range of screens. <br>
 
 ---
+Test label: Code format compliance
+Test action: Review all HTML (particularly attributes) and CSS (particularly rules) code, and all file and directory names
+Expected outcome: No uppercase letters used; no spaces found. Multiple words are joined using hyphens, except for repository level names which should use an underscore where necessary. All names are distinctive and intrinsically meaningful. CSS code is filed in an file external to HTML pages and linked to the HTML page in the HEAD element.
+Test outcome: PASS after discrepancies were modified (particularly variations in use of hyphen and underscore in attribute names).
+
+---
+
+Test label: Images and links include accessibility labels
+Test action: Review all images and links for accessibility label or clarify why not present
+Expected outcome: All semantically relevant images include self-explanatory accessibility label. All text links include self-explanatory label as part of text.
+Test outcome: PASS. Images used for decorative purposes only have no accessibility labels, but this is acceptable. 
+
+---
+
+Test label: File organisation
+Test action: Review all files and directories
+Expected outcome: Index.html is registered as 'Home' page via listing as entry file for the site on GitHub Pages. All static files are within assets/images.css/ . All files for README.md are within assets/documentation-images/  . All css files are within directory assets/css/ All files are grouped by type. 
+Test outcome: PASS. 
+
+
 ### 2. Browser Compatability
 Test label: Browser compatibility  <br>
 Test action: Request website (using 'bluebindy.github.io/get_settled/') on Chrome, Firefox and Safari browsers.  <br>
-Expected action: Website appears (including all images) as expected, with all elements, within 2 seconds. <br>
+Expected outcome: Website appears (including all images) as expected, with all elements, within 2 seconds. <br>
 Test outcome: PASS  <br>
 
 ---
@@ -168,7 +188,7 @@ Test outcome: PASS  <br>
 ### 5. Accessibility
 Test label: Accessibility testing  <br>
 Test action: Perform a Lighthouse test using Chrome Developer Tools.   <br>
-Expected action: Best Practices, SEO and Accessibility should return 95+ and Performance should return 90+.  <br>
+Expected outcome: Best Practices, SEO and Accessibility should return 95+ and Performance should return 90+.  <br>
 Test outcome: PASS after initial feedback was incorporated. Feedback included compressing images and converting to WebP for Performance. Feedback also included providing additional padding for social media icons for Accessibility. Producing stable Lighthouse results required all background browsers to be closed and icognito browser mode to be used.   <br>
 
 ---
@@ -176,14 +196,14 @@ Test outcome: PASS after initial feedback was incorporated. Feedback included co
 ### 6. Validator Testing
 Test label: W3 HTML validation  <br>
 Test action: Perform a W3 HTML validation test   <br>
-Expected action: W3 HTML validation passed with zero errors and ideally no warnings.  <br>
+Expected outcome: W3 HTML validation passed with zero errors and ideally no warnings.  <br>
 Test outcome: PASS (0 errors, 0 warnings) after initial feedback was incorporated. Initial W3 html testing recommended additional H2/3/4 headings and fewer H1 headings. Some stray and unclosed tags were also highlighted. Feedback also suggested some sections were changed to divs unless headers were used. Headers for these sections (eg Line 18, index.html) were not semantically appropriate and so divs were used in all noted instances. After recommendations were implemented, W3 html testing indicated no errors or warnings.  <br>
  
 ---
 
 Test label: W3 CSS validation (Jigsaw)  <br>
 Test action: Perform a W3 CSS validation test  <br>
-Expected action: W3 CSS validation passed with no issues outstanding  <br>
+Expected outcome: W3 CSS validation passed with no issues outstanding  <br>
 Test outcome: PASS after initial feedback was incorporated. Initial W3 CSS testing indicated some duplicate tags and an error in a function name. Once removed no further issues were reported. 
 
 ---
@@ -204,7 +224,6 @@ README structure based on <a href="https://github.com/Code-Institute-Solutions/r
 
 The live demo for the README was created based on <a href="https://lirad.medium.com/two-ways-to-create-a-live-demo-for-your-github-project-5436b048a40e">Diego Lira's suggestion.</a>
 
-All file names are in lower-case and utilise hyphens where necessary except for repository level files, which use underscore.
 
 All content is written by Fiona Thompson. 
 
