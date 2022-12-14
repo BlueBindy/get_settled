@@ -21,16 +21,16 @@ A live demo can be
 <a href="https://raw.githack.com/bluebindy/get_settled/main/index.html">accessed here.</a>
 
 
-The Home page:
+A screenshot of the Home page:
 
 ![Screenshot of get settled home page]( /assets/documentation-images/get_settled-home-page.png?raw=true "Home Page")
 
-The How To page:
+A screenshot of the How To page:
 
 ![Screenshot of get_settled How To page ]( /assets/documentation-images/get_settled-how-to.png?raw=true "How To Page")
 
-The FAQ page:
-insert when h3 tag fixed. 
+A screenshot of the FAQ page:
+![Screenshot of get_settled How To page ]( /assets/documentation-images/get_settled-faq.jpg?raw=true "How To Page")
 
 
 
