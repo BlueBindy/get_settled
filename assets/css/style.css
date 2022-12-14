@@ -265,6 +265,14 @@ available on YouTube*/
         background-color: rgb(255, 255, 224, 0.75);
     }
 }
+/* CSS to make nav menu more accessible on smaller screens */
+@media all and (max-width:420px) {
+    .menu ul {
+        display: flex;
+       justify-content: space-evenly;
+       flex-direction: row-reverse;
+    }
+}
 /* CSS to prevent website stretching horizontally across large screens, suggested by Brian Macharia */
 body {
     max-width: 1800px;
