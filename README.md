@@ -95,7 +95,7 @@ The website is deployed to GitHub Pages. The landing page ('Home') is index.html
 
 The original repository is available at: <a href="https://github.com/BlueBindy/get_settled" target="_blank">get_settled</a> and is created by <a href="https://github.com/BlueBindy" target="_blank">Fiona Thompson under username BlueBindy</a>. The repository can be cloned to run locally by inserting `git clone https://github.com/BlueBindy/get_settled.git` into a terminal. To create a repository that is not forked from the original, use `git remote rm origin` in the terminal. 
 
-Deployment to GitHub Pages is done by navigating from the repository ('https://github.com/BlueBindy/get_settled') to settings tab (in the menu above the repository, not in the User Profile) and then to source. From here, select the master branch. The <a href="https://github.com/BlueBindy/get_settled/deployments/activity_log?environment=github-pages" target="_blank">deployed version</a> ('https://bluebindy.github.io/get_settled/') is specified as 'Active'. The deployed site is then viewable by clicking the 'View Deployment' button. The site deployed from the original repository will automatically reflect new commits made to the master branch (potentially after a short queuing delay).
+Deployment to GitHub Pages is done by navigating from the repository (use 'https://github.com/BlueBindy/get_settled' in a browser) to settings tab (in the menu above the repository, not in the User Profile) and then to source. From here, select the master branch. The <a href="https://github.com/BlueBindy/get_settled/deployments/activity_log?environment=github-pages" target="_blank">deployed version</a> (use 'https://bluebindy.github.io/get_settled/' in a browser) is specified as 'Active'. The deployed site is then viewable by clicking the 'View Deployment' button. The site deployed from the original repository will automatically reflect new commits made to the master branch (potentially after a short queuing delay).
 
 ---
 ## Testing
@@ -116,7 +116,9 @@ All tests peformed on 'bluebindy.github.io/get_settled/' on Chrome, Safari and F
  **Test label:** Embedded text links   <br>
  **Test action:** Hover over link, click link, view opened page, return to website via browser tab, click elsewhere on website. Repeat on Chrome, Firefox and Safari.   <br>
  **Expected outcome:** Hover hand, green higlight and black bottom border appears on mouse over; click opens correct page in new tab. On return to website, icon remains briefly green highlighted, with black bottom border before changing to a paler green with bottom border. Highlight and bottom border disappear when screen refreshed or somewhere else on page clicked.    <br>
- **Test outcome:** PASS after code modifications were incorporated for Safari and Firefox. Initially Firefox and Safari browser defaults were overriding CSS color choices on unvisited and visited links. A class was added to the text links to increase their specificity. When the class was targetted with CSS color preferences the color presentation in Safari and Firefox aligned with the Chrome experience and the desired experience.   <br>
+ **Test outcome:** PASS after code modifications were incorporated for Safari and Firefox and with a README exception when viewed from GitHub. 
+ * Initially Firefox and Safari browser defaults were overriding CSS color choices on unvisited and visited links. A class was added to the text links to increase their specificity to override the browser defaults in turn. When the class was targetted with CSS color preferences the color presentation in Safari and Firefox aligned with the Chrome experience and the desired experience. 
+ * When viewed from GitHub, the text links in README do not open in a new window. A number of sources (StackOverflow, LaraCast forum, Code Institute Tutor session) suggest that GitHub does not allow this feature based on HTML code. *Users who wish to open these links in a new tab can instead use: CTRL+click (on Windows and Linux) or CMD+click (on MacOS).*  <br>
 
 ---
 
@@ -144,14 +146,16 @@ All tests peformed on 'bluebindy.github.io/get_settled/' on Chrome, Safari and F
 **Test label:** Fonts  <br>
 **Test action:** Inspect fonts after hard cache refresh on Chrome, Safari and Firefox browsers. Repeat while manually adjusting window size from minimum to maximum.  <br>
 **Expected outcome:** On page load, Oswald font loads and is legible.  <br>
-**Test outcome:** PASS after modifications. Initially Oswald did not load on Safari browser, but the default sans serif was produced instead. CSS code 'font-display: swap' was added to the body element to trigger loading of Oswald (based on a developer.mozilla.org suggestion). Oswald successfully loaded on Safari after this code addition. However, this CSS code failed the W3 Jigsaw test ('Property font-display doesn't exist: swap') and on inspection, as it was apparent it is alreaddy embedded in the Google Fonts url import, it was removed. The failure to load Oswald font error could not be reproduced on later testing after the code was removed. Instead, Oswald loaded on Safari on all subsequent tests.  <br>
+**Test outcome:** PASS after modifications. 
+* Initially Oswald did not load on Safari browser, but the default sans serif was produced instead. CSS code 'font-display: swap' was added to the body element to trigger loading of Oswald (based on a developer.mozilla.org suggestion). Oswald successfully loaded on Safari after this code addition. However, this CSS code failed the W3 Jigsaw test ('Property font-display doesn't exist: swap') and on inspection, as it was apparent it is alreaddy embedded in the Google Fonts url import, it was removed. The failure to load Oswald font error could not be reproduced on later testing after the code was removed. Instead, Oswald loaded on Safari on all subsequent tests.  <br>
 
 ---
 
 **Test label:** Responsivity  <br>
 **Test action:** Manually minimise desktop screen size and inspect each web page. Repeat on Chrome, Firefox and Safari.  Repeat using Chrome Developer Tools set for iPhone 5/SE (320 by 568), Surface Duo (540 by 720), iPad Mini (768 by 1024) and Pro Display XDR (6016 by 3384).  <br>
 **Expected outcome:** When the website is viewed on a range of screen sizes, the layout automatically re-assembles in an intuitive, legible and expected layout. Navigation menu, social media links, email form and embedded text links are accessible.  <br>
-**Test outcome:** PASS after code modification for H3 text overlay on FAQ image. Initially this text did not stay in an appropriate position; on very small screens it either migrated up or disappeared. Positioning was modified from cardinal to percentage units as suggested by Brian Macharia. This modification resulted in the text appearing as expected on a range of screens. <br>
+**Test outcome:** PASS after code modification for H3 text overlay on FAQ image. 
+* Initially this text did not stay in an appropriate position; on very small screens it either migrated up or disappeared. Positioning was modified from cardinal to percentage units as suggested by Brian Macharia. This modification resulted in the text appearing as expected on a range of screens. <br>
 
 ---
 **Test label:** Code format compliance  <br>
@@ -187,14 +191,18 @@ All tests peformed on 'bluebindy.github.io/get_settled/' on Chrome, Safari and F
 **Test label:** Accessibility testing  <br>
 **Test action:** Perform two Lighthouse tests using Chrome Developer Tools (First Mode Navigation and Device Mobile and then second, Mode Navigation and Device Desktop.) across all pages (to check for consistency of results.) <br>
 **Expected outcome:** Best Practices, SEO and Accessibility should return 95+ and Performance should return 90+.  <br>
-**Test outcome:** PASS after initial feedback was incorporated. Mobile results were 100 for Accessibility, Best Practices and SEO; Performance was 97. Desktop results were 100 for Accessibility, Best Practices and SEO; Performance was 98. Feedback included compressing images (for the web page and also README images) and converting to WebP for Performance. Additional Performance feedback included using preload and dns-prefetch for the Google Fonts in the HTML head to speed up page load but this produced varying results and was removed. Feedback also included providing additional padding for social media icons for Accessibility. Producing stable Lighthouse results required all background browsers to be closed and icognito browser mode to be used.   <br>
+**Test outcome:** PASS after initial feedback was incorporated. 
+* Mobile results were 100 for Accessibility, Best Practices and SEO; Performance was 97. Desktop results were 100 for Accessibility, Best Practices and SEO; Performance was 98. 
+* Feedback included compressing images (for the web page and also README images) and converting to WebP for Performance. Additional Performance feedback included using preload and dns-prefetch for the Google Fonts in the HTML head to speed up page load but this produced varying results and was removed. Feedback also included providing additional padding for social media icons for Accessibility. 
+* Producing stable Lighthouse results required all background browsers to be closed and icognito browser mode to be used.   <br>
 
 ---
 ### 6. Validator Testing
 **Test label:** W3 HTML validation  <br>
 **Test action:** Perform a W3 HTML validation test on all pages (Home, How To, FAQ and Page Not Found)   <br>
 **Expected outcome:** W3 HTML validation passed with zero errors and ideally no warnings (desired not essential).  <br>
-**Test outcome:** PASS (0 errors, 0 warnings) after initial feedback was incorporated. Initial W3 HTML testing recommended additional H2/3/4 headings and fewer H1 headings. Some stray and unclosed tags were also highlighted. Feedback also suggested some sections were changed to divs unless headers were used. Headers for these sections (eg Line 18, index.html) were not semantically appropriate and so divs were used in all noted instances. After recommendations were implemented, W3 HTML testing indicated no errors or warnings.  <br>
+**Test outcome:** PASS (0 errors, 0 warnings) after initial feedback was incorporated. 
+* Initial W3 HTML testing recommended additional H2/3/4 headings and fewer H1 headings. Some stray and unclosed tags were also highlighted. Feedback also suggested some sections were changed to divs unless headers were used. Headers for these sections (eg Line 18, index.html) were not semantically appropriate and so divs were used in all noted instances. After recommendations were implemented, W3 HTML testing indicated no errors or warnings.  <br>
  
 ---
 
@@ -217,7 +225,7 @@ All tests peformed on 'bluebindy.github.io/get_settled/' on Chrome, Safari and F
 The background image on the first aside on each page (khara-woods-irish.jpg) was taken by <a href="https://unsplash.com/@kharaoke?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Khara Woods</a> on <a href="https://unsplash.com/photos/_EaLWd6q4QM" target="_blank">Unsplash</a> and is free to use under the Unsplash licence. The crowd image on FAQ (rawpixel-irish-flag.jpeg) is from <a href="https://www.rawpixel.com/image/654282" target="_blank">Raw Pixel</a> and has a royalty free commercial licence, with required attribution: 'Image by rawpixel.com' 
 
 **Code and structure**  <br>
-HTML and CSS approaches based on <a href="codeinstitute.net" target="_blank">Code Institute's Diploma in Full Stack Development (E-commerce Applications)</a> HTML and CSS modules. Additional suggestions, on CSS user feedback particularly, taken from <a href="https://www.w3schools.com/html/default.asp" target="_blank">w3schools</a>.
+HTML and CSS approaches based on <a href="https://codeinstitute.net/ie/" target="_blank">Code Institute's Diploma in Full Stack Development (E-commerce Applications)</a> HTML and CSS modules. Additional suggestions, on CSS user feedback particularly, taken from <a href="https://www.w3schools.com/html/default.asp" target="_blank">w3schools</a>.
 
 Responsiveness structure was developed based on the Responsive Flexbox Layout by CSS Coder at <a href=" https://www.youtube.com/watch?v=S0a7PEOi0do" target="_blank">Responsive Flexbox Layout Page in 4 minutes</a> . The meta data was inserted using Emmet shortcut. The default template for Gitpod is from <a href="https://github.com/Code-Institute-Org/gitpod-full-template" target="_blank">the Code Institute's 'my_full_template'</a>. 
 
