@@ -116,7 +116,7 @@ All tests peformed on 'bluebindy.github.io/get_settled/' on Chrome, Safari and F
  **Test label:** Embedded text links   <br>
  **Test action:** Hover over link, click link, view opened page, return to website via browser tab, click elsewhere on website. Repeat on Chrome, Firefox and Safari.   <br>
  **Expected outcome:** Hover hand, green higlight and black bottom border appears on mouse over; click opens correct page in new tab. On return to website, icon remains briefly green highlighted, with black bottom border before changing to a paler green with bottom border. Highlight and bottom border disappear when screen refreshed or somewhere else on page clicked.    <br>
- **Test outcome:** PASS   <br>
+ **Test outcome:** PASS after code modifications were incorporated for Safari and Firefox. Initially Firefox and Safari browser defaults were overriding CSS color choices on unvisited and visited links. A class was added to the text links to increase their specificity. When the class was targetted with CSS color preferences the color presentation in Safari and Firefox aligned with the Chrome experience and the desired experience.   <br>
 
 ---
 
@@ -137,7 +137,7 @@ All tests peformed on 'bluebindy.github.io/get_settled/' on Chrome, Safari and F
 **Test label:** Images  <br>
 **Test action:** Hard refresh broswer cache, navigate to web page with image, time image load time, inspect image. Manually minimise desktop screen size and inspect image. Repeat on Chrome, Firefox and Safari. Repeat using Chrome Developer Tools set for iPhone 5/SE (320 by 568), Surface Duo (540 by 720), iPad Mini (768 by 1024) and Pro Display XDR (6016 by 3384).   <br>
 **Expected outcome:** On page load, all images (both decorative and semantic) appear and load with less than 1 second delay and are not stretched or distorted.  <br>
-**Test outcome:** PASS    <br>
+**Test outcome:** PASS after file compression and conversion to WebP.   <br>
 
 ---
 
@@ -179,7 +179,7 @@ All tests peformed on 'bluebindy.github.io/get_settled/' on Chrome, Safari and F
 **Test label:** Browser compatibility  <br>
 **Test action:** Request website (using 'bluebindy.github.io/get_settled/') on Chrome, Firefox and Safari browsers.  <br>
 **Expected outcome:** Website appears (including all images) as expected, with all elements, within 2 seconds. <br>
-**Test outcome:** PASS  <br>
+**Test outcome:** PASS after modifications listed in manual testing section. <br>
 
 ---
 
@@ -187,13 +187,13 @@ All tests peformed on 'bluebindy.github.io/get_settled/' on Chrome, Safari and F
 **Test label:** Accessibility testing  <br>
 **Test action:** Perform two Lighthouse tests using Chrome Developer Tools (First Mode Navigation and Device Mobile and then second, Mode Navigation and Device Desktop.)  <br>
 **Expected outcome:** Best Practices, SEO and Accessibility should return 95+ and Performance should return 90+.  <br>
-**Test outcome:** PASS after initial feedback was incorporated. Mobile results were 100 for Accessibility, Best Practices and SEO; Performance was 97. Desktop results were 100 for Accessibility, Best Practices and SEO; Performance was XX. Feedback included compressing images (for the web page and also README images) and converting to WebP for Performance. Additional Performance feedback included using preload and dns-prefetch for the Google Fonts in the HTML head to speed up page load. Feedback also included providing additional padding for social media icons for Accessibility. Producing stable Lighthouse results required all background browsers to be closed and icognito browser mode to be used.   <br>
+**Test outcome:** PASS after initial feedback was incorporated. Mobile results were 100 for Accessibility, Best Practices and SEO; Performance was 97. Desktop results were 100 for Accessibility, Best Practices and SEO; Performance was 98. Feedback included compressing images (for the web page and also README images) and converting to WebP for Performance. Additional Performance feedback included using preload and dns-prefetch for the Google Fonts in the HTML head to speed up page load but this produced varying results and was removed. Feedback also included providing additional padding for social media icons for Accessibility. Producing stable Lighthouse results required all background browsers to be closed and icognito browser mode to be used.   <br>
 
 ---
 ### 6. Validator Testing
 **Test label:** W3 HTML validation  <br>
-**Test action:** Perform a W3 HTML validation test   <br>
-**Expected outcome:** W3 HTML validation passed with zero errors and ideally no warnings.  <br>
+**Test action:** Perform a W3 HTML validation test on all pages (Home, How To, FAQ and Page Not Found)   <br>
+**Expected outcome:** W3 HTML validation passed with zero errors and ideally no warnings (desired not essential).  <br>
 **Test outcome:** PASS (0 errors, 0 warnings) after initial feedback was incorporated. Initial W3 HTML testing recommended additional H2/3/4 headings and fewer H1 headings. Some stray and unclosed tags were also highlighted. Feedback also suggested some sections were changed to divs unless headers were used. Headers for these sections (eg Line 18, index.html) were not semantically appropriate and so divs were used in all noted instances. After recommendations were implemented, W3 HTML testing indicated no errors or warnings.  <br>
  
 ---
