@@ -144,7 +144,7 @@ All tests peformed on 'bluebindy.github.io/get_settled/' on Chrome, Safari and F
 **Test label:** Fonts  <br>
 **Test action:** Inspect fonts after hard cache refresh on Chrome, Safari and Firefox browsers. Repeat while manually adjusting window size from minimum to maximum.  <br>
 **Expected outcome:** On page load, Oswald font loads and is legible.  <br>
-**Test outcome:** PASS after modifications. Initially Oswald did not load on Safari browser, but the default sans serif was produced instead. CSS code 'font-display: swap' was added to the body element to trigger loading of Oswald. Oswald successfully loaded on Safari after this code addition.  <br>
+**Test outcome:** PASS after modifications. Initially Oswald did not load on Safari browser, but the default sans serif was produced instead. CSS code 'font-display: swap' was added to the body element to trigger loading of Oswald (based on a developer.mozilla.org suggestion). Oswald successfully loaded on Safari after this code addition. However, this CSS code failed the W3 Jigsaw test ('Property font-display doesn't exist: swap') and on inspection, as it was apparent it is alreaddy embedded in the Google Fonts url import, it was removed. The failure to load Oswald font error could not be reproduced on later testing after the code was removed. Instead, Oswald loaded on Safari on all subsequent tests.  <br>
 
 ---
 
