@@ -9,7 +9,7 @@ TODO  <br>
 
 ### Get Settled
 
-Get Settled is a submission for Portfolio 1, Code Institute's Diploma in Full Stack Development (E-commerce Applications.) The website is a static HTML and CSS project intended to respond to the client's desire for an affiliate marketing content-based website MVP. The content is designed for a community of British people who have moved to Ireland and are seeking to naturalise as Irish after 2022 (when the application process changed significantly.) 
+The Get Settled website is a static HTML and CSS project. The intended goal is to facilitate the (theoretical) client's desire for an affiliate marketing content-based website MVP. The content is designed for a community of British people who have moved to Ireland and are seeking to naturalise as Irish after 2022 (when the application process changed significantly.) The process can be daunting and confusing; the website aims to help clarify the process.
 
 ---
 
@@ -19,18 +19,23 @@ A live demo can be
 <a href="https://raw.githack.com/bluebindy/get_settled/main/index.html">accessed here.</a>
 
 
-A screenshot of the Home page, including the email mailing list sign-up form and navigation bar:
+A screenshot of the Home page, illustrating the email mailing list sign-up form and navigation bar (to all pages) can be found below. The email mailing list includes feedback on user progress (with warning signs appearing if the data is not entered correctly and a confirmation screen when the form has been correctly completed.) This reassures the user and helps them achieve their goal of joining the mailing list. The landing page includes a welcome text explaining the site's intention and establishes credibility by noting that only official information sources are used. Social media links are available at the bottom of the screen and open in a new window to aid user orientation. When the client creates social media accounts, these links can direct the website user directly to them (currently they point to the home page of the social media platform.)
 
 ![Screenshot of get settled home page]( /documentation-images/get_settled-home-page.png?raw=true "Home Page")
 
-A screenshot of the How To page:
+A screenshot of the How To page can be found below. The How To page presents common application questions and concise answers in non-legal language. The answer text includes text links to source materials (opening in a new window for ease of orientation) so the user can confirm or research information for themselves. Navigation and social media links also appear on this page.
 
 ![Screenshot of get_settled How To page ]( /documentation-images/get_settled-how-to.png?raw=true "How To Page")
 
-A screenshot of the FAQ page:
+A screenshot of the FAQ page can be found below. The FAQ page lists some of the most common questions that applicants have. Concise and easily understandable answers are provided, complete with links to source material. The FAQ page also has a farewell image, designed to reassure and inspire the website user on their application journey. The FAQ page also has a navigation bar and social media links.
 ![Screenshot of get_settled How To page ]( /documentation-images/get_settled-faq.jpg?raw=true "How To Page")
 
 
+---
+
+A screenshot of the 404-error page can be found below. This page is not included on the navigation bar of the other website pages. Instead, it is the page a user would see if they used a link that does not exist, has been moved or has a broken link. This page does however include the navigation menu so they can navigate back to a page that does exist.
+
+![Screenshot of get_settled 404-error page ]( /documentation-images/get_settled-page-not-found.png?raw=true "Page Not Found")
 
 ---
 ### Technologies
@@ -77,7 +82,7 @@ The high-contrast and naive colour scheme was chosen to flag the peer-driven nat
 ### Features
   <br>
 <strong>Features included in this current version</strong>  <br>
-The website includes a navigation bar in the header so the user can navigate between pages. An email form is provided on the home page, enabling the user to join a mailing list. <br>
+The website includes a navigation bar in the header so the user can navigate between pages. An email form with validation is provided on the home page, enabling the user to join a mailing list and to receive feedback on their progress. These features can be seen in the screenshots available in the Demo section. Text links wtihin answers open source material in a new window, so the user still has the website open while viewing source material. The 404 error page includes a navigation bar so the user can navigate back to an existing page. <br>
   <br>
 <strong>Features planned for later versions</strong>  <br>
 As more content is added, a website search function will be added for UX purposes. When the client is ready to convert the site to an affiliate revenue website, affiliate links will be added.  
