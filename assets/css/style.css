@@ -47,7 +47,7 @@ article {
 
 /* CSS for links.
 User feedback options for links based on W3 Schools Tutorial */
-a:link {
+a:link, a.text-link {
     color: #163100;
     text-decoration: none;
     font-weight: bold;
@@ -57,7 +57,7 @@ a.nav-link:link {
     color: black;
 }
 
-a:visited {
+a.text-link:visited {
     color: #163100;
 }
 
