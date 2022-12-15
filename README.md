@@ -91,17 +91,11 @@ As more content is added, a website search function will be added for UX purpose
 
 ### Deployment
 
-Github pages were used for deployment. The landing page ('Home') is index.html, as is required by Github Pages for successful deployment. If using Gitpod, code can be commited from the local filesystem to Github using 'git commit -m "" ' on the terminal. Code can be pushed form the local filesystem to Github by using 'git push' on the terminal. 
+Github pages were used for deployment. The landing page ('Home') is index.html, as is required by Github Pages for successful deployment. If using Gitpod, code in all files can be added to staging by using 'git add .' on the terminal. Code can be commited from the local filesystem to Github using 'git commit -m "" ' on the terminal. Code can be pushed form the local filesystem to Github by using 'git push' on the terminal. 
 
-The original repository is available at: <a href="https://github.com/BlueBindy/get_settled">get_settled</a> and is created by <a href="https://github.com/BlueBindy">Fiona Thompson under username BlueBindy</a>. The repository can be cloned to run locally by inserting `git clone https://github.com/BlueBindy/get_settled.git` into a terminal. To create a repository that is not forked from the original, use `git remote rm origin` in the terminal CI. The site deployed from the original repository will automatically reflect new commits made to the master branch.
+The original repository is available at: <a href="https://github.com/BlueBindy/get_settled">get_settled</a> and is created by <a href="https://github.com/BlueBindy">Fiona Thompson under username BlueBindy</a>. The repository can be cloned to run locally by inserting `git clone https://github.com/BlueBindy/get_settled.git` into a terminal. To create a repository that is not forked from the original, use `git remote rm origin` in the terminal. 
 
-Github Pages were created by nominating index.html from the main branch of the repository as the entry file for the publishing source. Then settings/Code and Automation/
-
-To set up GIthub Pages, from the repository, select main as a publishing source.
-
-FINISH deployment here...
-
-**The deployment write-up should include full instructions on how to get the application from code to hosting. I’d suggest explaining (1) how you set up Github Pages, (2) how one commits and pushes code from the local filesystem to Github and how Github Pages automatically picks that up, and (3) how one might clone and run it locally.**
+The website is deployed to GitHub Pages. This is done by navigating from the repository ('https://github.com/BlueBindy/get_settled') to settings tab (in the menu above the repository, not in the User Profile) and then to source. From here, select the master branch. The deployed version is specified as 'Active'. The deployed site is then viewable by clicking the 'View Deployment' button. The site deployed from the original repository will automatically reflect new commits made to the master branch (potentially after a short queuing delay).
 
 ---
 ## Testing
