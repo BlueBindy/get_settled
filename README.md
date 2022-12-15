@@ -19,25 +19,25 @@ A screenshot of the Home page, illustrating the email mailing list sign-up form 
 * The landing page includes a welcome text explaining the site's intention and establishes credibility by noting that only official information sources are used. 
 * Social media links are available at the bottom of the screen and open in a new window to aid user orientation. When the client creates social media accounts, these links can direct the website user directly to them (currently they point to the home page of the social media platform.)
 
-![Screenshot of get settled home page]( /documentation-images/get_settled-home-page.png?raw=true "Home Page")
+![Screenshot of get settled home page]( /documentation-images/get_settled-home-page.webp?raw=true "Home Page")
 
 A screenshot of the How To page can be found below. 
 * The How To page presents common application questions and concise answers in non-legal language. The answer text includes text links to source materials (opening in a new window for ease of orientation) so the user can confirm or research information for themselves. 
 * Navigation and social media links also appear on this page.
 
-![Screenshot of get_settled How To page ]( /documentation-images/get_settled-how-to.png?raw=true "How To Page")
+![Screenshot of get_settled How To page ]( /documentation-images/get_settled-how-to.webp?raw=true "How To Page")
 
 A screenshot of the FAQ page can be found below. 
 * The FAQ page lists some of the most common questions that applicants have. Concise and easily understandable answers are provided, complete with links to source material. 
 * The FAQ page also has a farewell image, designed to reassure and inspire the website user on their application journey. * The FAQ page also has a navigation bar and social media links.
 
-![Screenshot of get_settled How To page ]( /documentation-images/get_settled-faq.jpg?raw=true "How To Page")
+![Screenshot of get_settled How To page ]( /documentation-images/get_settled-faq.webp?raw=true "How To Page")
 
 
 A screenshot of the 404-error page can be found below. 
 * This page is not included on the navigation bar of the other website pages. Instead, it is the page a user would see if they used a link that does not exist, has been moved or has a broken link. This page does however include the navigation menu so they can navigate back to a page that does exist.
 
-![Screenshot of get_settled 404-error page ]( /documentation-images/get_settled-page-not-found.png?raw=true "Page Not Found")
+![Screenshot of get_settled 404-error page ]( /documentation-images/get_settled-page-not-found.webp?raw=true "Page Not Found")
 
 ---
 ### Technologies
@@ -64,16 +64,16 @@ The three page structure is designed to break common questions into manageable s
 **Skeleton**  <br>
   The wireframe for the home page, desktop version:
 
-  ![Screenshot of wireframe for home page]( /documentation-images/wireframe-home-desk.png?raw=true "Home Page")
+  ![Screenshot of wireframe for home page]( /documentation-images/wireframe-home-desk.webp?raw=true "Home Page")
 
   The wireframe for the How To page, desktop version:
-![Screenshot of wireframe for home page]( /documentation-images/wireframe-howto-desk.png?raw=true "Home Page")
+![Screenshot of wireframe for home page]( /documentation-images/wireframe-howto-desk.webp?raw=true "Home Page")
 
   The wireframe for the FAQ page, desktop version:
-![Screenshot of wireframe for home page]( /documentation-images/wireframe-faq-desk.png?raw=true "Home Page")
+![Screenshot of wireframe for home page]( /documentation-images/wireframe-faq-desk.webp?raw=true "Home Page")
 
   The wireframe for the How To page, mobile version:  <br>
-![Screenshot of wireframe for home page]( /documentation-images/wireframe-faq-mobile.png?raw=true "Home Page")
+![Screenshot of wireframe for home page]( /documentation-images/wireframe-faq-mobile.webp?raw=true "Home Page")
 
 
 **Surface**  <br>
