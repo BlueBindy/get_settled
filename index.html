@@ -12,100 +12,104 @@
 </head>
 
 <body>
-        <!-- HTML for responsiveness based on CSS Coder's YouTube tutorial. 
+    <!-- HTML for responsiveness based on CSS Coder's YouTube tutorial. 
         See README for further detail.-->
-        <header class="wrapper">
-            <div class="header">
-                <!--Navigation menu based on Code Instite tutorial. 
+    <header class="wrapper">
+        <div class="header">
+            <!--Navigation menu based on Code Instite tutorial. 
                 See README for further detail.-->
-                <a href="index.html">
-                    <h1 id="logo">Get Settled <i class="fa-solid fa-passport"></i></h1>
-                </a>
-                <nav class="menu">
-                    <ul>
-                        <li>
-                            <a class="nav-link" href="faq.html">FAQs</a>
-                        </li>
-                        <li>
-                            <a class="nav-link" href="howto.html">How to</a>
-                        </li>
-                        <li>
-                            <a class="nav-link" href="index.html">Home</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-        <div class="wrapper">
-            <aside class="aside aside1">
-                <h2 class="text-background">Welcome to Get Settled, Ireland</h2>
-            </aside>
-            <article class="main">
-                <h2>Welcome!</h2>
-                <p>If you are a Brit looking to understand how to apply for Irish citizenship, we'd love to share what
-                    helped us. We are a small group of Brits who are are applying or have received citizenship. This is
-                    a summary of the information we found most helpful. </p>
-                <p>In all honesty, we found the process confusing at times. We wanted to bring the information
-                    that made it easier into one place. In particular, we want to avoid opinion or guesswork. Therefore, we aim 
-                    to only provide information that is confirmed or published by official sources. </p>
-            </article>
-        </div>
-        <!-- Form strategy informed by Code Institute tutorial. See README for further detail.-->
-        <div class="wrapper">
-            <aside class="aside aside2">
-                <h2>Want to receive email updates sent directly to your inbox?</h2>
-            </aside>
-            <article class="main">
-                <div class="email-form">
-                    <h3>Sign up here:</h3>
-                    <form method="POST" action="https://formdump.codeinstitute.net" class="email-signup">
-                        <div>
-                            <label for="first-name">First Name</label>
-                            <input type="text" id="first-name" name="first-name" required placeholder="First name here">
-                        </div>
-                        <div>
-                            <label for="last-name">Last Name</label>
-                            <input type="text" id="last-name" name="last-name" required placeholder="Last name here">
-                        </div>
-                        <div>
-                            <label for="email">Email Address</label>
-                            <input type="email" id="email" name="email" required placeholder="name@email.com">
-                        </div>
-                        <div>
-                            <input id="submit" type="submit" value="Send">
-                        </div>
-                    </form>
-                </div>
-            </article>
-        </div>
-        
-        <footer class="footer">
-            <div class="social-links">
-                <!--Icons are FontAwesome v.6.2.1 FontAwesome
-                Social media links strategy informed by Code Institute tutorial. 
-                See README for further detail.-->
-                <ul class="social-networks">
+            <a href="index.html">
+                <h1 id="logo">Get Settled <i class="fa-solid fa-passport"></i></h1>
+            </a>
+            <nav class="menu">
+                <ul>
                     <li>
-                        <a class="nav-link" href="https://facebook.com" target="_blank" rel="noopener"
-                            aria-label="Take a look at our Facebook page (opens in a new tab)"><i
-                                class="fa-brands fa-facebook"></i></a>
+                        <a class="nav-link" href="faq.html">FAQs</a>
                     </li>
                     <li>
-                        <a class="nav-link" href="https://youtube.com" target="_blank" rel="noopener"
-                            aria-label="Take a look at our YouTube page (opens in a new tab)"><i
-                                class="fa-brands fa-square-youtube"></i></a>
+                        <a class="nav-link" href="howto.html">How to</a>
                     </li>
                     <li>
-                        <a class="nav-link" href="https://instagram.com" target="_blank" rel="noopener"
-                            aria-label="Take a look at our Instagram page (opens in a new tab)"><i
-                                class="fa-brands fa-square-instagram"></i></a>
+                        <a class="nav-link" href="index.html">Home</a>
                     </li>
                 </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!--div selected here instead of section as a heading (preferred approach by W3 Validator)
+        does not make semantic sense-->
+    <div class="wrapper">
+        <aside class="aside aside1">
+            <h2 class="text-background">Welcome to Get Settled, Ireland</h2>
+        </aside>
+        <article class="main">
+            <h2>Welcome!</h2>
+            <p>If you are a Brit looking to understand how to apply for Irish citizenship, we'd love to share what
+                helped us. We are a small group of Brits who are are applying or have received citizenship. This is
+                a summary of the information we found most helpful. </p>
+            <p>In all honesty, we found the process confusing at times. We wanted to bring the information
+                that made it easier into one place. In particular, we want to avoid opinion or guesswork. Therefore, we
+                aim
+                to only provide information that is confirmed or published by official sources. </p>
+        </article>
+    </div>
+    <!-- Form strategy informed by Code Institute tutorial. See README for further detail.-->
+    <div class="wrapper">
+        <aside class="aside aside2">
+            <h2>Want to receive email updates sent directly to your inbox?</h2>
+        </aside>
+        <article class="main">
+            <div class="email-form">
+                <h3>Sign up here:</h3>
+                <form method="POST" action="https://formdump.codeinstitute.net" class="email-signup">
+                    <div>
+                        <label for="first-name">First Name</label>
+                        <input type="text" id="first-name" name="first-name" required placeholder="First name here">
+                    </div>
+                    <div>
+                        <label for="last-name">Last Name</label>
+                        <input type="text" id="last-name" name="last-name" required placeholder="Last name here">
+                    </div>
+                    <div>
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required placeholder="name@email.com">
+                    </div>
+                    <div>
+                        <input id="submit" type="submit" value="Send">
+                    </div>
+                </form>
             </div>
-        </footer>
-        <!-- FontAwesome script -->
-        <script src="https://kit.fontawesome.com/1e818b8a7e.js" crossorigin="anonymous"></script>
-    
+        </article>
+    </div>
+
+    <footer class="footer">
+        <div class="social-links">
+            <!--Icons are FontAwesome v.6.2.1 FontAwesome
+                Social media links strategy informed by Code Institute tutorial. 
+                See README for further detail.-->
+            <ul class="social-networks">
+                <li>
+                    <a class="nav-link" href="https://facebook.com" target="_blank" rel="noopener"
+                        aria-label="Take a look at our Facebook page (opens in a new tab)"><i
+                            class="fa-brands fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a class="nav-link" href="https://youtube.com" target="_blank" rel="noopener"
+                        aria-label="Take a look at our YouTube page (opens in a new tab)"><i
+                            class="fa-brands fa-square-youtube"></i></a>
+                </li>
+                <li>
+                    <a class="nav-link" href="https://instagram.com" target="_blank" rel="noopener"
+                        aria-label="Take a look at our Instagram page (opens in a new tab)"><i
+                            class="fa-brands fa-square-instagram"></i></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <!-- FontAwesome script -->
+    <script src="https://kit.fontawesome.com/1e818b8a7e.js" crossorigin="anonymous"></script>
+
 </body>
 
 </html>

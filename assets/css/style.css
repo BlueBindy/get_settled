@@ -35,6 +35,7 @@ footer {
     left: 0;
 }
 
+/* CSS for 404 error page */
 .page-not-found {
     text-align: center;
 }
@@ -209,8 +210,7 @@ input {
     padding: 1rem;
 }
 
-/* CSS for responsiveness.
-CSS for responsiveness based on CSS Coder's 'Responsive Flexbox Layout Page in 4 minutes' 
+/* CSS for responsiveness, based on CSS Coder's 'Responsive Flexbox Layout Page in 4 minutes' 
 available on YouTube*/
 .wrapper {
     display: flex;

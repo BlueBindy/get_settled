@@ -12,91 +12,96 @@
 </head>
 
 <body>
-        <!-- HTML for responsiveness based on CSS Coder's YouTube tutorial. 
+    <!-- HTML for responsiveness based on CSS Coder's YouTube tutorial. 
         See README for further detail.-->
-        <header class="wrapper">
-            <div class="header">
-                <!--Navigation menu based on Code Instite tutorial. 
+    <header class="wrapper">
+        <div class="header">
+            <!--Navigation menu based on Code Instite tutorial. 
                 See README for further detail.-->
-                <a href="index.html">
-                    <h1 id="logo">Get Settled <i class="fa-solid fa-passport"></i></h1>
-                </a>
-                <nav class="menu">
-                    <ul>
-                        <li>
-                            <a class="nav-link" href="faq.html">FAQs</a>
-                        </li>
-                        <li>
-                            <a class="nav-link" href="howto.html">How to</a>
-                        </li>
-                        <li>
-                            <a class="nav-link" href="index.html">Home</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-        <div class="wrapper">
-            <aside class="aside aside1">
-                <h2 class="text-background">How do I apply for naturalisation?</h2>
-            </aside>
-            <article class="main">
-                <h3>Applications are made by paper form</h3>
-                <p>Adult British citizens should use Form 8 (version 6.7 July 2022)
-                    <a href="https://www.irishimmigration.ie/how-to-become-a-citizen/become-an-irish-citizen-by-naturalisation/#forms"
-                        target="_blank"> which is found here.</a> You will need to attach documents to evidence your
-                    residency
-                    in Ireland, based on the scorecard approach introduced in January 2022. You'll need documents worth
-                    150 points for your required residency; <a
-                        href="https://www.irishimmigration.ie/how-to-become-a-citizen/become-an-irish-citizen-by-naturalisation/proofs-of-residence/"
-                        target="_blank">the scorecard can be found here.</a> Finally, you'll also need the application
-                    fee, a certified copy of your passport/s valid during your residency, your birth certificate and two witnessed photographs.</p>
-            </article>
-        </div>
-        <div class="wrapper">
-            <aside class="aside aside2">
-                <h2>When do I apply?</h2>
-            </aside>
-            <article class="main">
-                <h3>Residents need 5 years residency and spouses of Irish citizens need 3 years</h3>
-                <p>If you are married to an Irish citizen and living in Ireland, you'll need
-                    to prove 3 years residency and marriage. All other British citizens will need to prove they have
-                    lived in Ireland for 5 years. The current time to process a straightforward application submitted
-                    from 2022 onwards averages 19 months. So, between residency and application it is roughly
-                    a 5 to 7 year process. Please note, if you have Irish parents
-                    or grandparents you should use the <a
-                        href="https://www.dfa.ie/citizenship/born-abroad/registering-a-foreign-birth/"
-                        target="_blank">Foreign Birth Registration</a>
-                    process as you need to prove ancestry not residency.
-                </p>
-            </article>
-        </div>
-        <footer class="footer">
-            <div class="social-links">
-                <!--Icons are FontAwesome v.6.2.1 FontAwesome
-                Social media links strategy informed by Code Institute tutorial. 
-                See README for further detail.-->
-                <ul class="social-networks">
+            <a href="index.html">
+                <h1 id="logo">Get Settled <i class="fa-solid fa-passport"></i></h1>
+            </a>
+            <nav class="menu">
+                <ul>
                     <li>
-                        <a class="nav-link" href="https://facebook.com" target="_blank" rel="noopener"
-                            aria-label="Take a look at our Facebook page (opens in a new tab)"><i
-                                class="fa-brands fa-facebook"></i></a>
+                        <a class="nav-link" href="faq.html">FAQs</a>
                     </li>
                     <li>
-                        <a class="nav-link" href="https://youtube.com" target="_blank" rel="noopener"
-                            aria-label="Take a look at our YouTube page (opens in a new tab)"><i
-                                class="fa-brands fa-square-youtube"></i></a>
+                        <a class="nav-link" href="howto.html">How to</a>
                     </li>
                     <li>
-                        <a class="nav-link" href="https://instagram.com" target="_blank" rel="noopener"
-                            aria-label="Take a look at our Instagram page (opens in a new tab)"><i
-                                class="fa-brands fa-square-instagram"></i></a>
+                        <a class="nav-link" href="index.html">Home</a>
                     </li>
                 </ul>
-            </div>
-        </footer>
-        <!-- font awesome script -->
-        <script src="https://kit.fontawesome.com/1e818b8a7e.js" crossorigin="anonymous"></script>
+            </nav>
+        </div>
+    </header>
+
+    <!--div selected here instead of section as a heading (preferred approach by W3 Validator)
+        does not make semantic sense-->
+    <div class="wrapper">
+        <aside class="aside aside1">
+            <h2 class="text-background">How do I apply for naturalisation?</h2>
+        </aside>
+        <article class="main">
+            <h3>Applications are made by paper form</h3>
+            <p>Adult British citizens should use Form 8 (version 6.7 July 2022)
+                <a href="https://www.irishimmigration.ie/how-to-become-a-citizen/become-an-irish-citizen-by-naturalisation/#forms"
+                    target="_blank"> which is found here.</a> You will need to attach documents to evidence your
+                residency
+                in Ireland, based on the scorecard approach introduced in January 2022. You'll need documents worth
+                150 points for your required residency; <a
+                    href="https://www.irishimmigration.ie/how-to-become-a-citizen/become-an-irish-citizen-by-naturalisation/proofs-of-residence/"
+                    target="_blank">the scorecard can be found here.</a> Finally, you'll also need the application
+                fee, a certified copy of your passport/s valid during your residency, your birth certificate and two
+                witnessed photographs.</p>
+        </article>
+    </div>
+    <div class="wrapper">
+        <aside class="aside aside2">
+            <h2>When do I apply?</h2>
+        </aside>
+        <article class="main">
+            <h3>Residents need 5 years residency and spouses of Irish citizens need 3 years</h3>
+            <p>If you are married to an Irish citizen and living in Ireland, you'll need
+                to prove 3 years residency and marriage. All other British citizens will need to prove they have
+                lived in Ireland for 5 years. The current time to process a straightforward application submitted
+                from 2022 onwards averages 19 months. So, between residency and application it is roughly
+                a 5 to 7 year process. Please note, if you have Irish parents
+                or grandparents you should use the <a
+                    href="https://www.dfa.ie/citizenship/born-abroad/registering-a-foreign-birth/"
+                    target="_blank">Foreign Birth Registration</a>
+                process as you need to prove ancestry not residency.
+            </p>
+        </article>
+    </div>
+
+    <footer class="footer">
+        <div class="social-links">
+            <!--Icons are FontAwesome v.6.2.1 FontAwesome
+                Social media links strategy informed by Code Institute tutorial. 
+                See README for further detail.-->
+            <ul class="social-networks">
+                <li>
+                    <a class="nav-link" href="https://facebook.com" target="_blank" rel="noopener"
+                        aria-label="Take a look at our Facebook page (opens in a new tab)"><i
+                            class="fa-brands fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a class="nav-link" href="https://youtube.com" target="_blank" rel="noopener"
+                        aria-label="Take a look at our YouTube page (opens in a new tab)"><i
+                            class="fa-brands fa-square-youtube"></i></a>
+                </li>
+                <li>
+                    <a class="nav-link" href="https://instagram.com" target="_blank" rel="noopener"
+                        aria-label="Take a look at our Instagram page (opens in a new tab)"><i
+                            class="fa-brands fa-square-instagram"></i></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <!-- font awesome script -->
+    <script src="https://kit.fontawesome.com/1e818b8a7e.js" crossorigin="anonymous"></script>
 
 </body>
 
