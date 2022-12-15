@@ -95,7 +95,7 @@ The website is deployed to GitHub Pages. The landing page ('Home') is index.html
 
 The original repository is available at: <a href="https://github.com/BlueBindy/get_settled">get_settled</a> and is created by <a href="https://github.com/BlueBindy">Fiona Thompson under username BlueBindy</a>. The repository can be cloned to run locally by inserting `git clone https://github.com/BlueBindy/get_settled.git` into a terminal. To create a repository that is not forked from the original, use `git remote rm origin` in the terminal. 
 
-Deployment to GitHub Pages is done by navigating from the repository ('https://github.com/BlueBindy/get_settled') to settings tab (in the menu above the repository, not in the User Profile) and then to source. From here, select the master branch. The deployed version is specified as 'Active'. The deployed site is then viewable by clicking the 'View Deployment' button. The site deployed from the original repository will automatically reflect new commits made to the master branch (potentially after a short queuing delay).
+Deployment to GitHub Pages is done by navigating from the repository ('https://github.com/BlueBindy/get_settled') to settings tab (in the menu above the repository, not in the User Profile) and then to source. From here, select the master branch. The <a href="https://github.com/BlueBindy/get_settled/deployments/activity_log?environment=github-pages">deployed version</a> ('https://bluebindy.github.io/get_settled/') is specified as 'Active'. The deployed site is then viewable by clicking the 'View Deployment' button. The site deployed from the original repository will automatically reflect new commits made to the master branch (potentially after a short queuing delay).
 
 ---
 ## Testing
