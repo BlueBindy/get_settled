@@ -57,6 +57,10 @@ a.nav-link:link {
     color: black;
 }
 
+a:visited {
+    color: #163100;
+}
+
 a.nav-link:visited {
     color: black;
 }
