@@ -53,7 +53,7 @@ As a Brit wanting to naturalise as Irish, I want easy to find answers to common 
 As an affiliate marketer, I want a content-based site broken into common questions so I can insert affiliate links in a value-driven way for the user. 
 
 **Strategy**  <br>
-The strategic aim is to create a site that users find easy to scan for common questions and provides the client with natural opportunity to insert affiliate links in a later version. The tone is intended to be peer-created and accessible to encourage sharing but alsocredible to foster trustworthiness. 
+The strategic aim is to create a site that users find easy to scan for common questions and provides the client with natural opportunity to insert affiliate links in a later version. The tone is intended to be peer-created and accessible to encourage sharing but also be credible to foster trustworthiness. 
 
 **Scope**  <br>
 This version is intended to offer minimum content in a minimum viable product (MVP) only. The intention is that subsequent versions add content and also affiliate links. 
@@ -91,18 +91,18 @@ As more content is added, a website search function will be added for UX purpose
 
 ### Deployment
 
-Github pages were used for deployment. The landing page ('Home') is index.html, as is required by Github Pages for successful deployment. If using Gitpod, code in all files can be added to staging by using 'git add .' on the terminal. Code can be commited from the local filesystem to Github using 'git commit -m "" ' on the terminal. Code can be pushed form the local filesystem to Github by using 'git push' on the terminal. 
+The website is deployed to GitHub Pages. The landing page ('Home') is index.html, as is required by Github Pages for successful deployment. If using Gitpod, code in all files can be added to staging by using 'git add .' on the terminal. Code can be commited from the local filesystem to Github using 'git commit -m "" ' on the terminal. Code can be pushed form the local filesystem to Github by using 'git push' on the terminal. 
 
 The original repository is available at: <a href="https://github.com/BlueBindy/get_settled">get_settled</a> and is created by <a href="https://github.com/BlueBindy">Fiona Thompson under username BlueBindy</a>. The repository can be cloned to run locally by inserting `git clone https://github.com/BlueBindy/get_settled.git` into a terminal. To create a repository that is not forked from the original, use `git remote rm origin` in the terminal. 
 
-The website is deployed to GitHub Pages. This is done by navigating from the repository ('https://github.com/BlueBindy/get_settled') to settings tab (in the menu above the repository, not in the User Profile) and then to source. From here, select the master branch. The deployed version is specified as 'Active'. The deployed site is then viewable by clicking the 'View Deployment' button. The site deployed from the original repository will automatically reflect new commits made to the master branch (potentially after a short queuing delay).
+Deployment to GitHub Pages is done by navigating from the repository ('https://github.com/BlueBindy/get_settled') to settings tab (in the menu above the repository, not in the User Profile) and then to source. From here, select the master branch. The deployed version is specified as 'Active'. The deployed site is then viewable by clicking the 'View Deployment' button. The site deployed from the original repository will automatically reflect new commits made to the master branch (potentially after a short queuing delay).
 
 ---
 ## Testing
 
  ### 1. Functionality Testing 
 ---
-All tests peformed on 'bluebindy.github.io/get_settled/' on Chrome, Safari and Firefox browsers on a 13-inch early 2015 Macbook Air using MacOS Monterary v12.5.1. The exception to this is the Lighthouse accesssibility test which was performed on Chrome only.  <br>
+All tests peformed on 'bluebindy.github.io/get_settled/' on Chrome, Safari and Firefox browsers on a 13-inch early 2015 Macbook Air using MacOS Monterey v12.5.1. The exception to this is the Lighthouse accesssibility test which was performed on Chrome only.  <br>
 
 ---
 
