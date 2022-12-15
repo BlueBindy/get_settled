@@ -185,9 +185,9 @@ All tests peformed on 'bluebindy.github.io/get_settled/' on Chrome, Safari and F
 
 ### 5. Accessibility
 **Test label:** Accessibility testing  <br>
-**Test action:** Perform a Lighthouse test using Chrome Developer Tools.   <br>
+**Test action:** Perform two Lighthouse tests using Chrome Developer Tools (First Mode Navigation and Device Mobile and then second, Mode Navigation and Device Desktop).   <br>
 **Expected outcome:** Best Practices, SEO and Accessibility should return 95+ and Performance should return 90+.  <br>
-**Test outcome:** PASS after initial feedback was incorporated. Feedback included compressing images and converting to WebP for Performance. Feedback also included providing additional padding for social media icons for Accessibility. Producing stable Lighthouse results required all background browsers to be closed and icognito browser mode to be used.   <br>
+**Test outcome:** PASS after initial feedback was incorporated. Feedback included compressing images (for the web page and also README images) and converting to WebP for Performance. Additional Performance feedback included using preload and dns-prefetch for the Google Fonts in the HTML head to speed up page load. Feedback also included providing additional padding for social media icons for Accessibility. Producing stable Lighthouse results required all background browsers to be closed and icognito browser mode to be used.   <br>
 
 ---
 ### 6. Validator Testing
