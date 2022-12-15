@@ -11,7 +11,7 @@ The Get Settled website is a static HTML and CSS project. The intended goal is t
 ### Demo
 
 A live demo can be 
-<a href="https://raw.githack.com/bluebindy/get_settled/main/index.html">accessed here.</a>
+<a href="https://raw.githack.com/bluebindy/get_settled/main/index.html" target="_blank">accessed here.</a>
 
 
 A screenshot of the Home page, illustrating the email mailing list sign-up form and navigation bar (to all pages) can be found below. 
@@ -93,9 +93,9 @@ As more content is added, a website search function will be added for UX purpose
 
 The website is deployed to GitHub Pages. The landing page ('Home') is index.html, as is required by Github Pages for successful deployment. If using Gitpod, code in all files can be added to staging by using 'git add .' on the terminal. Code can be commited from the local filesystem to Github using 'git commit -m "" ' on the terminal. Code can be pushed form the local filesystem to Github by using 'git push' on the terminal. 
 
-The original repository is available at: <a href="https://github.com/BlueBindy/get_settled">get_settled</a> and is created by <a href="https://github.com/BlueBindy">Fiona Thompson under username BlueBindy</a>. The repository can be cloned to run locally by inserting `git clone https://github.com/BlueBindy/get_settled.git` into a terminal. To create a repository that is not forked from the original, use `git remote rm origin` in the terminal. 
+The original repository is available at: <a href="https://github.com/BlueBindy/get_settled" target="_blank">get_settled</a> and is created by <a href="https://github.com/BlueBindy" target="_blank">Fiona Thompson under username BlueBindy</a>. The repository can be cloned to run locally by inserting `git clone https://github.com/BlueBindy/get_settled.git` into a terminal. To create a repository that is not forked from the original, use `git remote rm origin` in the terminal. 
 
-Deployment to GitHub Pages is done by navigating from the repository ('https://github.com/BlueBindy/get_settled') to settings tab (in the menu above the repository, not in the User Profile) and then to source. From here, select the master branch. The <a href="https://github.com/BlueBindy/get_settled/deployments/activity_log?environment=github-pages">deployed version</a> ('https://bluebindy.github.io/get_settled/') is specified as 'Active'. The deployed site is then viewable by clicking the 'View Deployment' button. The site deployed from the original repository will automatically reflect new commits made to the master branch (potentially after a short queuing delay).
+Deployment to GitHub Pages is done by navigating from the repository ('https://github.com/BlueBindy/get_settled') to settings tab (in the menu above the repository, not in the User Profile) and then to source. From here, select the master branch. The <a href="https://github.com/BlueBindy/get_settled/deployments/activity_log?environment=github-pages" target="_blank">deployed version</a> ('https://bluebindy.github.io/get_settled/') is specified as 'Active'. The deployed site is then viewable by clicking the 'View Deployment' button. The site deployed from the original repository will automatically reflect new commits made to the master branch (potentially after a short queuing delay).
 
 ---
 ## Testing
@@ -185,7 +185,7 @@ All tests peformed on 'bluebindy.github.io/get_settled/' on Chrome, Safari and F
 
 ### 5. Accessibility
 **Test label:** Accessibility testing  <br>
-**Test action:** Perform two Lighthouse tests using Chrome Developer Tools (First Mode Navigation and Device Mobile and then second, Mode Navigation and Device Desktop.)  <br>
+**Test action:** Perform two Lighthouse tests using Chrome Developer Tools (First Mode Navigation and Device Mobile and then second, Mode Navigation and Device Desktop.) across all pages (to check for consistency of results.) <br>
 **Expected outcome:** Best Practices, SEO and Accessibility should return 95+ and Performance should return 90+.  <br>
 **Test outcome:** PASS after initial feedback was incorporated. Mobile results were 100 for Accessibility, Best Practices and SEO; Performance was 97. Desktop results were 100 for Accessibility, Best Practices and SEO; Performance was 98. Feedback included compressing images (for the web page and also README images) and converting to WebP for Performance. Additional Performance feedback included using preload and dns-prefetch for the Google Fonts in the HTML head to speed up page load but this produced varying results and was removed. Feedback also included providing additional padding for social media icons for Accessibility. Producing stable Lighthouse results required all background browsers to be closed and icognito browser mode to be used.   <br>
 
@@ -211,21 +211,21 @@ All tests peformed on 'bluebindy.github.io/get_settled/' on Chrome, Safari and F
 
 **Resources**  <br>
 
-<a href="https://www.fontpair.co/all">Fontpair</a> was used for font selection. <a href=" https://colorhunt.co/">Colorhunt</a> was used for palette selection. <a href = "https://imagecolorpicker.com/en">ImageColorPicker</a> was used to identify colors in images.  Icons are sourced from <a href="https://fontawesome.com/">FontAwesome</a>. <a href="https://tinypng.com/">TinyPNG</a> was used to compress images. <a href="https://convertio.co/">Convertio.co</a> was used to convert JPEG images to WEBP. <a href="http://raw.githack.com/">GitHack</a> was used to provide a live demonstration of the website.
+<a href="https://www.fontpair.co/all" target="_blank">Fontpair</a> was used for font selection. <a href=" https://colorhunt.co/" target="_blank">Colorhunt</a> was used for palette selection. <a href = "https://imagecolorpicker.com/en" target="_blank">ImageColorPicker</a> was used to identify colors in images.  Icons are sourced from <a href="https://fontawesome.com/" target="_blank">FontAwesome</a>. <a href="https://tinypng.com/" target="_blank">TinyPNG</a> was used to compress images. <a href="https://convertio.co/" target="_blank">Convertio.co</a> was used to convert JPEG images to WEBP. <a href="http://raw.githack.com/" target="_blank">GitHack</a> was used to provide a live demonstration of the website.
 
 **Media**  <br>
-The background image on the first aside on each page (khara-woods-irish.jpg) was taken by <a href="https://unsplash.com/@kharaoke?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Khara Woods</a> on <a href="https://unsplash.com/photos/_EaLWd6q4QM">Unsplash</a> and is free to use under the Unsplash licence. The crowd image on FAQ (rawpixel-irish-flag.jpeg) is from <a href="https://www.rawpixel.com/image/654282">Raw Pixel</a> and has a royalty free commercial licence, with required attribution: 'Image by rawpixel.com' 
+The background image on the first aside on each page (khara-woods-irish.jpg) was taken by <a href="https://unsplash.com/@kharaoke?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Khara Woods</a> on <a href="https://unsplash.com/photos/_EaLWd6q4QM" target="_blank">Unsplash</a> and is free to use under the Unsplash licence. The crowd image on FAQ (rawpixel-irish-flag.jpeg) is from <a href="https://www.rawpixel.com/image/654282" target="_blank">Raw Pixel</a> and has a royalty free commercial licence, with required attribution: 'Image by rawpixel.com' 
 
 **Code and structure**  <br>
-HTML and CSS approaches based on <a href="codeinstitute.net">Code Institute's Diploma in Full Stack Development (E-commerce Applications)</a> HTML and CSS modules. Additional suggestions, on CSS user feedback particularly, taken from <a href="https://www.w3schools.com/html/default.asp">w3schools</a>.
+HTML and CSS approaches based on <a href="codeinstitute.net" target="_blank">Code Institute's Diploma in Full Stack Development (E-commerce Applications)</a> HTML and CSS modules. Additional suggestions, on CSS user feedback particularly, taken from <a href="https://www.w3schools.com/html/default.asp" target="_blank">w3schools</a>.
 
-Responsiveness structure was developed based on the Responsive Flexbox Layout by CSS Coder at <a href=" https://www.youtube.com/watch?v=S0a7PEOi0do">Responsive Flexbox Layout Page in 4 minutes</a> . The meta data was inserted using Emmet shortcut. The default template for Gitpod is from <a href="https://github.com/Code-Institute-Org/gitpod-full-template">the Code Institute's 'my_full_template'</a>. 
+Responsiveness structure was developed based on the Responsive Flexbox Layout by CSS Coder at <a href=" https://www.youtube.com/watch?v=S0a7PEOi0do" target="_blank">Responsive Flexbox Layout Page in 4 minutes</a> . The meta data was inserted using Emmet shortcut. The default template for Gitpod is from <a href="https://github.com/Code-Institute-Org/gitpod-full-template" target="_blank">the Code Institute's 'my_full_template'</a>. 
 
-Mentoring from <a href="https://dev.to/brianmk">Brian Macharia</a>. All errors and ommissions the responsibility of Fiona Thompson. 
+Mentoring from <a href="https://dev.to/brianmk" target="_blank">Brian Macharia</a>. All errors and ommissions the responsibility of Fiona Thompson. 
 
-README structure based on <a href="https://github.com/Code-Institute-Solutions/readme-template">Code Institute's example</a>. The approach to the Deployment and Testing sections reflects guidance from <a href="https://dev.to/brianmk">Brian Macharia.</a>  
+README structure based on <a href="https://github.com/Code-Institute-Solutions/readme-template" target="_blank">Code Institute's example</a>. The approach to the Deployment and Testing sections reflects guidance from <a href="https://dev.to/brianmk" target="_blank">Brian Macharia.</a>  
 
-The live demo for the README was created based on <a href="https://lirad.medium.com/two-ways-to-create-a-live-demo-for-your-github-project-5436b048a40e">Diego Lira's suggestion.</a>
+The live demo for the README was created based on <a href="https://lirad.medium.com/two-ways-to-create-a-live-demo-for-your-github-project-5436b048a40e" target="_blank">Diego Lira's suggestion.</a>
 
 **Content**  <br>
 All content is written by Fiona Thompson. 
